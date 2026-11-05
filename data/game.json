@@ -1,0 +1,11108 @@
+{
+ "asOf": "5 November 2026",
+ "patch": "2.2.16a",
+ "season": "Season 42",
+ "sources": [
+  {
+   "title": "Liquipedia MLBB: Portal Heroes (133 hero, lane per hero) dan halaman tiap hero (teks skill)",
+   "url": "https://liquipedia.net/mobilelegends/Portal:Heroes"
+  },
+  {
+   "title": "MLBB Fandom Wiki: List of heroes (role, specialty, lane, region, tanggal rilis)",
+   "url": "https://mobile-legends.fandom.com/wiki/List_of_heroes"
+  },
+  {
+   "title": "MLBBHub: counter pick per hero (edge dari data ranked resmi Moonton GMS, patch 2.2.16a)",
+   "url": "https://mlbbhub.com/counter"
+  },
+  {
+   "title": "MLBBHub: katalog 104 item (dari file game, patch 2.2.16a, 5 Nov 2026)",
+   "url": "https://mlbbhub.com/items"
+  },
+  {
+   "title": "MLBB Fandom Wiki: Turtle",
+   "url": "https://mobile-legends.fandom.com/wiki/Turtle"
+  },
+  {
+   "title": "MLBB Fandom Wiki: Lord",
+   "url": "https://mobile-legends.fandom.com/wiki/Lord"
+  },
+  {
+   "title": "MLBBDex: objective timer (Turtle, Lord, buff)",
+   "url": "https://mlbbdex.com/en/tools/timer"
+  },
+  {
+   "title": "METAMMO: Jungle guide Season 42 (patch 2.2.16a)",
+   "url": "https://metammo.com/mobile-legends-guide/guides/jungle-routes-and-objective-timers"
+  },
+  {
+   "title": "MLBBHub: Map guide",
+   "url": "https://mlbbhub.com/map"
+  }
+ ],
+ "items": [
+  {
+   "id": "antiheal",
+   "label": "Anti-heal",
+   "when": "Musuh punya banyak heal/regen (hero dengan specialty Regen, healer, lifesteal tinggi).",
+   "items": [
+    {
+     "name": "Sea Halberd",
+     "for": "Physical",
+     "cost": 2050,
+     "note": "Lifebane: kurangi Shield dan HP Regen target jadi 60% selama 3s. Punish: +8% damage ke hero dengan extra HP lebih tinggi."
+    },
+    {
+     "name": "Glowing Wand",
+     "for": "Magic",
+     "cost": 2050,
+     "note": "Lifebane: kurangi Shield dan HP Regen jadi 60% selama 3s; Scorch membakar 1% Max HP per detik."
+    },
+    {
+     "name": "Dominance Ice",
+     "for": "Tank/Roam",
+     "cost": 2010,
+     "note": "Lifebane area: Shield dan HP Regen musuh dalam 5 unit jadi 60%. Juga +40 Physical dan +40 Magic Defense."
+    }
+   ]
+  },
+  {
+   "id": "magicdef",
+   "label": "Magic Defense",
+   "when": "3+ hero musuh dominan Magic damage.",
+   "items": [
+    {
+     "name": "Athena's Shield",
+     "for": "Semua",
+     "cost": 2150,
+     "note": "+48 Magic Defense; kurangi Magic Damage 25% selama 3s saat terkena magic."
+    },
+    {
+     "name": "Radiant Armor",
+     "for": "Semua",
+     "cost": 1880,
+     "note": "+40 Magic Defense, bertambah saat menerima Magic Damage (sampai 6 stack)."
+    },
+    {
+     "name": "Tough Boots",
+     "for": "Semua",
+     "cost": 720,
+     "note": "+18 Magic Defense; durasi CC dan Slow -25%."
+    }
+   ]
+  },
+  {
+   "id": "physdef",
+   "label": "Physical Defense",
+   "when": "3+ hero musuh dominan Physical damage.",
+   "items": [
+    {
+     "name": "Antique Cuirass",
+     "for": "Tank/Fighter",
+     "cost": 2170,
+     "note": "+40 Physical Defense, +920 HP; tiap kena skill, Physical Damage penyerang -4% (stack 3x)."
+    },
+    {
+     "name": "Warrior Boots",
+     "for": "Semua",
+     "cost": 720,
+     "note": "+18 Physical Defense, +4 lagi saat menerima Physical Damage (maks +20)."
+    },
+    {
+     "name": "Dominance Ice",
+     "for": "Tank/Roam",
+     "cost": 2010,
+     "note": "+40 Physical dan +40 Magic Defense; bonus defense per musuh di dekat."
+    }
+   ]
+  },
+  {
+   "id": "anticrit",
+   "label": "Anti-crit / anti attack speed",
+   "when": "Musuh punya 2+ Marksman atau hero basic-attack/crit.",
+   "items": [
+    {
+     "name": "Blade Armor",
+     "for": "Tank/Fighter",
+     "cost": 1910,
+     "note": "+80 Physical Defense, 20% Critical Damage Reduction; memantulkan damage basic attack dan slow."
+    },
+    {
+     "name": "Chastise Pauldron",
+     "for": "Tank/Fighter",
+     "cost": 2100,
+     "note": "Penyerang kena -25% Attack Speed (dan cap-nya) selama 2s; pulih 20% Max HP saat HP < 30%."
+    },
+    {
+     "name": "Wind of Nature",
+     "for": "Marksman",
+     "cost": 1910,
+     "note": "Active: kebal Physical Damage 2s (durasi setengah jika bukan Marksman)."
+    }
+   ]
+  },
+  {
+   "id": "antiburst",
+   "label": "Anti-burst",
+   "when": "Musuh punya 2+ Assassin atau banyak hero burst.",
+   "items": [
+    {
+     "name": "Winter Crown",
+     "for": "Semua",
+     "cost": 1910,
+     "note": "Active: beku, untargetable dan kebal damage 2s (CD 100s)."
+    },
+    {
+     "name": "Immortality",
+     "for": "Semua",
+     "cost": 2120,
+     "note": "Bangkit 2.5s setelah mati dengan 16% HP + shield (CD 210s)."
+    },
+    {
+     "name": "Queen's Wings",
+     "for": "Fighter",
+     "cost": 2250,
+     "note": "HP < 40%: 30% Damage Reduction 3s dan CD skill -2s."
+    },
+    {
+     "name": "Blood Wings",
+     "for": "Mage",
+     "cost": 2100,
+     "note": "Shield 800 (+100% Magic Power) yang regenerasi."
+    }
+   ]
+  },
+  {
+   "id": "pen",
+   "label": "Penetrasi vs tank",
+   "when": "Musuh punya 2+ Tank atau frontline tebal.",
+   "items": [
+    {
+     "name": "Malefic Roar",
+     "for": "Physical",
+     "cost": 2060,
+     "note": "+30% Physical Penetration, bertambah sesuai Physical Defense target (maks +30%)."
+    },
+    {
+     "name": "Demon Hunter Sword",
+     "for": "Physical (basic attack)",
+     "cost": 2180,
+     "note": "Basic attack +8% current HP target sebagai Physical Damage."
+    },
+    {
+     "name": "Divine Glaive",
+     "for": "Magic",
+     "cost": 1970,
+     "note": "40% Magic Penetration, bertambah sesuai Magic Defense target (maks +20%)."
+    },
+    {
+     "name": "Genius Wand",
+     "for": "Magic",
+     "cost": 2000,
+     "note": "10 Magic Penetration; kurangi Magic Defense target (stack 3x)."
+    }
+   ]
+  },
+  {
+   "id": "anticc",
+   "label": "Anti-CC",
+   "when": "Musuh punya 3+ hero Crowd Control/Control.",
+   "items": [
+    {
+     "name": "Tough Boots",
+     "for": "Semua",
+     "cost": 720,
+     "note": "Durasi CC dan Slow -25%, +18 Magic Defense."
+    },
+    {
+     "name": "Brute Force Breastplate",
+     "for": "Tank/Fighter",
+     "cost": 2070,
+     "note": "Full stack: +25% Control Duration Reduction."
+    }
+   ]
+  }
+ ],
+ "timers": [
+  {
+   "id": "turtle",
+   "label": "Turtle",
+   "emoji": "🐢",
+   "respawn": 120,
+   "first": "2:00",
+   "notes": "Respawn 120s setelah mati. Turtle yang mati setelah 6:00 tidak respawn (Lord muncul 2 menit kemudian). Turtle pertama selalu di sisi EXP lane."
+  },
+  {
+   "id": "lord",
+   "label": "Lord",
+   "emoji": "👹",
+   "respawn": 180,
+   "alt": [
+    {
+     "label": "Setelah 18:00 (120s)",
+     "respawn": 120
+    },
+    {
+     "label": "Setelah 18:00 (150s)",
+     "respawn": 150
+    }
+   ],
+   "first": "8:00 (atau 2 menit setelah Turtle terakhir)",
+   "notes": "Respawn 180s jika mati sebelum 18:00. Setelah 18:00 sumber berbeda: 120s (teks Fandom) atau 150s (infobox Fandom/MLBBHub). Lord bisa muncul bersama gelombang minion, jadi bisa telat sampai ~30 detik."
+  },
+  {
+   "id": "purple_ours",
+   "label": "Purple buff (kita)",
+   "emoji": "🟣",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Efek buff ±75s."
+  },
+  {
+   "id": "red_ours",
+   "label": "Red/Orange buff (kita)",
+   "emoji": "🔴",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Efek buff ±75s."
+  },
+  {
+   "id": "purple_theirs",
+   "label": "Purple buff (musuh)",
+   "emoji": "🟪",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Siapkan invade 15 detik sebelumnya."
+  },
+  {
+   "id": "red_theirs",
+   "label": "Red/Orange buff (musuh)",
+   "emoji": "🟥",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Siapkan invade 15 detik sebelumnya."
+  }
+ ],
+ "timerNote": "Waktu dari Fandom (Turtle, Lord), MLBBDex, METAMMO dan MLBBHub per patch 2.2.16a. Spawn pertama buff berbeda antar sumber (0:20, 0:25 atau 0:30). Moonton tidak menerbitkan tabel timer resmi dan bisa mengubahnya tiap patch; minimap di game selalu yang paling benar.",
+ "goldenRule": "Objektif lebih penting dari kill. Jangan bertarung tanpa tahu posisi jungler musuh dan tanpa ultimate siap; kalau ragu, ambil objektif yang aman atau reset dan reposisi.",
+ "goldenRuleNote": "Rumusan ini dibuat untuk app ini; ganti di data/game.json (goldenRule) jika ingin memakai versi coach sendiri.",
+ "heroes": [
+  {
+   "name": "Aamon",
+   "title": "the Duke of Shards",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Magic Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "26 October 2021",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Gloo",
+     "edge": 4.6
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.7
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.9
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.8
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.4
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Cici",
+     "edge": 4.4
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.4
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.9
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.8
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/aamon",
+   "wiki": "https://liquipedia.net/mobilelegends/Aamon"
+  },
+  {
+   "name": "Akai",
+   "title": "the Panda Warrior",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Guard",
+    "Crowd Control"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Marcel",
+     "edge": 3.5
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.2
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.1
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.9
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.6
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Harith",
+     "edge": 2.3
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.1
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.0
+    },
+    {
+     "hero": "Granger",
+     "edge": 1.9
+    },
+    {
+     "hero": "Nana",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/akai",
+   "wiki": "https://liquipedia.net/mobilelegends/Akai"
+  },
+  {
+   "name": "Aldous",
+   "title": "the Soul Contractor",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Burst",
+    "Support"
+   ],
+   "region": "Agelta Drylands",
+   "release": "24 July 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Esmeralda",
+     "edge": 3.5
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.4
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.1
+    },
+    {
+     "hero": "Badang",
+     "edge": 1.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Uranus",
+     "edge": 2.7
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.5
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.5
+    },
+    {
+     "hero": "Novaria",
+     "edge": 2.0
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/aldous",
+   "wiki": "https://liquipedia.net/mobilelegends/Aldous"
+  },
+  {
+   "name": "Alice",
+   "title": "the Queen of Blood",
+   "roles": [
+    "Tank",
+    "Mage"
+   ],
+   "lanes": [
+    "EXP",
+    "Jungle"
+   ],
+   "specialties": [
+    "Charge",
+    "Regen"
+   ],
+   "region": "Abyss",
+   "release": "2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Angela",
+     "edge": 4.7
+    },
+    {
+     "hero": "Floryn",
+     "edge": 4.1
+    },
+    {
+     "hero": "Karrie",
+     "edge": 4.0
+    },
+    {
+     "hero": "Valir",
+     "edge": 3.8
+    },
+    {
+     "hero": "Edith",
+     "edge": 3.7
+    },
+    {
+     "hero": "Estes",
+     "edge": 3.6
+    },
+    {
+     "hero": "Diggie",
+     "edge": 3.5
+    },
+    {
+     "hero": "Cici",
+     "edge": 3.2
+    },
+    {
+     "hero": "Baxia",
+     "edge": 3.2
+    },
+    {
+     "hero": "Yve",
+     "edge": 3.0
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 2.9
+    },
+    {
+     "hero": "Julian",
+     "edge": 2.4
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.3
+    },
+    {
+     "hero": "Harley",
+     "edge": 2.3
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lylia",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Chip",
+     "edge": 4.0
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 3.7
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.7
+    },
+    {
+     "hero": "Faramis",
+     "edge": 3.6
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.6
+    },
+    {
+     "hero": "Khufra",
+     "edge": 3.4
+    },
+    {
+     "hero": "Barats",
+     "edge": 3.4
+    },
+    {
+     "hero": "Grock",
+     "edge": 3.3
+    },
+    {
+     "hero": "Akai",
+     "edge": 3.2
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 3.2
+    },
+    {
+     "hero": "Aulus",
+     "edge": 3.2
+    },
+    {
+     "hero": "Zhask",
+     "edge": 3.1
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 3.0
+    },
+    {
+     "hero": "Vexana",
+     "edge": 2.9
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.9
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.7
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 2.6
+    },
+    {
+     "hero": "Kadita",
+     "edge": 2.2
+    },
+    {
+     "hero": "Badang",
+     "edge": 2.0
+    },
+    {
+     "hero": "Sora",
+     "edge": 1.9
+    },
+    {
+     "hero": "Clint",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/alice",
+   "wiki": "https://liquipedia.net/mobilelegends/Alice"
+  },
+  {
+   "name": "Alpha",
+   "title": "the Blade of Enmity",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Charge",
+    "Damage"
+   ],
+   "region": "Laboratory 1718",
+   "release": "January 2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Benedetta",
+     "edge": 3.8
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.0
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.7
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.7
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lylia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 1.9
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Phoveus",
+     "edge": 3.2
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.9
+    },
+    {
+     "hero": "Barats",
+     "edge": 2.7
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.5
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/alpha",
+   "wiki": "https://liquipedia.net/mobilelegends/Alpha"
+  },
+  {
+   "name": "Alucard",
+   "title": "the Demon Hunter",
+   "roles": [
+    "Fighter",
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Khufra",
+     "edge": 2.8
+    },
+    {
+     "hero": "Barats",
+     "edge": 2.8
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.7
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.6
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.5
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.5
+    },
+    {
+     "hero": "Akai",
+     "edge": 2.1
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Sun",
+     "edge": 2.9
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.7
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 2.6
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.3
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.2
+    },
+    {
+     "hero": "Xavier",
+     "edge": 1.9
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/alucard",
+   "wiki": "https://liquipedia.net/mobilelegends/Alucard"
+  },
+  {
+   "name": "Angela",
+   "title": "the Bunnylove",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Guard",
+    "Support"
+   ],
+   "region": "Laboratory 1718",
+   "release": "6 February 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 3.7
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.6
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.3
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.1
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.0
+    },
+    {
+     "hero": "Julian",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Xavier",
+     "edge": 2.4
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Grock",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/angela",
+   "wiki": "https://liquipedia.net/mobilelegends/Angela"
+  },
+  {
+   "name": "Argus",
+   "title": "the Dark Angel",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Charge",
+    "Burst"
+   ],
+   "region": "Abyss",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Barats",
+     "edge": 3.1
+    },
+    {
+     "hero": "Uranus",
+     "edge": 3.1
+    },
+    {
+     "hero": "Terizla",
+     "edge": 3.0
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.5
+    },
+    {
+     "hero": "Ruby",
+     "edge": 2.4
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 2.1
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Karrie",
+     "edge": 2.7
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.4
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.4
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.4
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/argus",
+   "wiki": "https://liquipedia.net/mobilelegends/Argus"
+  },
+  {
+   "name": "Arlott",
+   "title": "the Lone Lancer",
+   "roles": [
+    "Fighter",
+    "Assassin"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Charge",
+    "Burst"
+   ],
+   "region": "Moniyan Empire",
+   "release": "14 February 2023",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 2.5
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.4
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.4
+    },
+    {
+     "hero": "Lukas",
+     "edge": 2.0
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.0
+    },
+    {
+     "hero": "Cici",
+     "edge": 2.6
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.3
+    },
+    {
+     "hero": "Natan",
+     "edge": 2.1
+    },
+    {
+     "hero": "Khufra",
+     "edge": 1.9
+    },
+    {
+     "hero": "Ruby",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/arlott",
+   "wiki": "https://liquipedia.net/mobilelegends/Arlott"
+  },
+  {
+   "name": "Atlas",
+   "title": "the Ocean Gladiator",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Initiator"
+   ],
+   "region": "Northern Vale",
+   "release": "20 March 2020",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Marcel",
+     "edge": 5.8
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 3.8
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.6
+    },
+    {
+     "hero": "Valentina",
+     "edge": 3.4
+    },
+    {
+     "hero": "Ling",
+     "edge": 3.2
+    },
+    {
+     "hero": "Fanny",
+     "edge": 3.0
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.9
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.8
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 2.7
+    },
+    {
+     "hero": "Moskov",
+     "edge": 2.3
+    },
+    {
+     "hero": "Xavier",
+     "edge": 1.8
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Cyclops",
+     "edge": 2.7
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.6
+    },
+    {
+     "hero": "Nana",
+     "edge": 2.5
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.4
+    },
+    {
+     "hero": "Vale",
+     "edge": 2.0
+    },
+    {
+     "hero": "Bane",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/atlas",
+   "wiki": "https://liquipedia.net/mobilelegends/Atlas"
+  },
+  {
+   "name": "Aulus",
+   "title": "the Warrior of Ferocity",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Damage",
+    "Charge"
+   ],
+   "region": "The Barren Lands",
+   "release": "31 August 2021",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 3.2
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.5
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.4
+    },
+    {
+     "hero": "Freya",
+     "edge": 2.1
+    },
+    {
+     "hero": "Estes",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 3.4
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.5
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.3
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.3
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/aulus",
+   "wiki": "https://liquipedia.net/mobilelegends/Aulus"
+  },
+  {
+   "name": "Aurora",
+   "title": "the Maiden of the Glacier",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Poke"
+   ],
+   "region": "Northern Vale",
+   "release": "2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Yin",
+     "edge": 2.1
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 1.8
+    },
+    {
+     "hero": "Belerick",
+     "edge": 1.6
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 1.5
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 6.5
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.1
+    },
+    {
+     "hero": "Khufra",
+     "edge": 1.7
+    },
+    {
+     "hero": "Eudora",
+     "edge": 1.4
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/aurora",
+   "wiki": "https://liquipedia.net/mobilelegends/Aurora"
+  },
+  {
+   "name": "Badang",
+   "title": "the Tribal Warrior",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Roam",
+    "EXP"
+   ],
+   "specialties": [
+    "Charge",
+    "Burst"
+   ],
+   "region": "Vonetis Sea",
+   "release": "15 January 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Esmeralda",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.1
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.0
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.0
+    },
+    {
+     "hero": "Diggie",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Fanny",
+     "edge": 2.7
+    },
+    {
+     "hero": "Sun",
+     "edge": 1.8
+    },
+    {
+     "hero": "Zilong",
+     "edge": 1.7
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 1.3
+    },
+    {
+     "hero": "Aldous",
+     "edge": 1.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/badang",
+   "wiki": "https://liquipedia.net/mobilelegends/Badang"
+  },
+  {
+   "name": "Balmond",
+   "title": "the Bloody Beast",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Damage",
+    "Regen"
+   ],
+   "region": "The Barren Lands",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Cici",
+     "edge": 4.8
+    },
+    {
+     "hero": "Angela",
+     "edge": 3.6
+    },
+    {
+     "hero": "Valir",
+     "edge": 3.5
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.5
+    },
+    {
+     "hero": "Karrie",
+     "edge": 3.2
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 2.5
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.0
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.0
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Saber",
+     "edge": 3.1
+    },
+    {
+     "hero": "Lukas",
+     "edge": 2.8
+    },
+    {
+     "hero": "Barats",
+     "edge": 2.6
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.5
+    },
+    {
+     "hero": "Martis",
+     "edge": 2.0
+    },
+    {
+     "hero": "Kalea",
+     "edge": 1.8
+    },
+    {
+     "hero": "Kadita",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/balmond",
+   "wiki": "https://liquipedia.net/mobilelegends/Balmond"
+  },
+  {
+   "name": "Bane",
+   "title": "the Frozen King",
+   "roles": [
+    "Fighter",
+    "Mage"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Push",
+    "Burst"
+   ],
+   "region": "Northern Vale",
+   "release": "2016",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 4.6
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.1
+    },
+    {
+     "hero": "Nolan",
+     "edge": 2.0
+    },
+    {
+     "hero": "Atlas",
+     "edge": 1.9
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Kalea",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/bane",
+   "wiki": "https://liquipedia.net/mobilelegends/Bane"
+  },
+  {
+   "name": "Barats",
+   "title": "the Dino Rider",
+   "roles": [
+    "Tank",
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Jungle"
+   ],
+   "specialties": [
+    "Damage",
+    "Crowd Control"
+   ],
+   "region": "Agelta Drylands",
+   "release": "18 September 2020",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 5.3
+    },
+    {
+     "hero": "Gord",
+     "edge": 3.6
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.4
+    },
+    {
+     "hero": "Yve",
+     "edge": 3.3
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.7
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.6
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 2.0
+    },
+    {
+     "hero": "Lylia",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Phoveus",
+     "edge": 3.4
+    },
+    {
+     "hero": "Argus",
+     "edge": 3.1
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 3.1
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.8
+    },
+    {
+     "hero": "Brody",
+     "edge": 2.2
+    },
+    {
+     "hero": "Eudora",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/barats",
+   "wiki": "https://liquipedia.net/mobilelegends/Barats"
+  },
+  {
+   "name": "Baxia",
+   "title": "the Mystic Tortoise",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Jungle",
+    "Roam"
+   ],
+   "specialties": [
+    "Support",
+    "Damage"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "8 October 2019",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 5.6
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 4.1
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.8
+    },
+    {
+     "hero": "Karrie",
+     "edge": 3.5
+    },
+    {
+     "hero": "Lesley",
+     "edge": 3.2
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.9
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.6
+    },
+    {
+     "hero": "Nolan",
+     "edge": 2.3
+    },
+    {
+     "hero": "Bane",
+     "edge": 2.2
+    },
+    {
+     "hero": "Suyou",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Chip",
+     "edge": 4.8
+    },
+    {
+     "hero": "Lukas",
+     "edge": 3.4
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.2
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.8
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.7
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.6
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.5
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.4
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.3
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.2
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.1
+    },
+    {
+     "hero": "Natan",
+     "edge": 2.0
+    },
+    {
+     "hero": "Freya",
+     "edge": 1.8
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.6
+    },
+    {
+     "hero": "Julian",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/baxia",
+   "wiki": "https://liquipedia.net/mobilelegends/Baxia"
+  },
+  {
+   "name": "Beatrix",
+   "title": "the Dawnbreak Soldier",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Eruditio",
+   "release": "19 March 2021",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Granger",
+     "edge": 2.5
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.3
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.2
+    },
+    {
+     "hero": "Moskov",
+     "edge": 2.2
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.2
+    },
+    {
+     "hero": "Chou",
+     "edge": 1.8
+    },
+    {
+     "hero": "Irithel",
+     "edge": 1.8
+    },
+    {
+     "hero": "Selena",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Estes",
+     "edge": 5.1
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 3.3
+    },
+    {
+     "hero": "Belerick",
+     "edge": 3.2
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.7
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.6
+    },
+    {
+     "hero": "Natan",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/beatrix",
+   "wiki": "https://liquipedia.net/mobilelegends/Beatrix"
+  },
+  {
+   "name": "Belerick",
+   "title": "the Guard of Nature",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Regen"
+   ],
+   "region": "Agelta Drylands",
+   "release": "17 August 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Beatrix",
+     "edge": 3.2
+    },
+    {
+     "hero": "Brody",
+     "edge": 3.2
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.0
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.9
+    },
+    {
+     "hero": "Cici",
+     "edge": 2.9
+    },
+    {
+     "hero": "Leomord",
+     "edge": 2.3
+    },
+    {
+     "hero": "Xavier",
+     "edge": 2.3
+    },
+    {
+     "hero": "Clint",
+     "edge": 2.1
+    },
+    {
+     "hero": "Bane",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Miya",
+     "edge": 3.7
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 3.1
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.7
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.7
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.7
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/belerick",
+   "wiki": "https://liquipedia.net/mobilelegends/Belerick"
+  },
+  {
+   "name": "Benedetta",
+   "title": "the Shadow Ranger",
+   "roles": [
+    "Assassin",
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "The Barren Lands",
+   "release": "7 November 2020",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 3.3
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.9
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 2.9
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.7
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.3
+    },
+    {
+     "hero": "Selena",
+     "edge": 2.0
+    },
+    {
+     "hero": "Irithel",
+     "edge": 1.8
+    },
+    {
+     "hero": "Paquito",
+     "edge": 1.6
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.8
+    },
+    {
+     "hero": "Alpha",
+     "edge": 3.8
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 3.3
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.8
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.8
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.5
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 2.5
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.4
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.2
+    },
+    {
+     "hero": "Vexana",
+     "edge": 2.1
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.0
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.8
+    },
+    {
+     "hero": "Lylia",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/benedetta",
+   "wiki": "https://liquipedia.net/mobilelegends/Benedetta"
+  },
+  {
+   "name": "Brody",
+   "title": "the Lone Star",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Burst",
+    "Finisher"
+   ],
+   "region": "The Barren Lands",
+   "release": "16 October 2020",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Saber",
+     "edge": 2.2
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.2
+    },
+    {
+     "hero": "Barats",
+     "edge": 2.2
+    },
+    {
+     "hero": "Diggie",
+     "edge": 1.9
+    },
+    {
+     "hero": "Khufra",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Karina",
+     "edge": 4.1
+    },
+    {
+     "hero": "Belerick",
+     "edge": 3.2
+    },
+    {
+     "hero": "Irithel",
+     "edge": 2.9
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.5
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/brody",
+   "wiki": "https://liquipedia.net/mobilelegends/Brody"
+  },
+  {
+   "name": "Bruno",
+   "title": "the Protector",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Burst"
+   ],
+   "region": "Eruditio",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 3.5
+    },
+    {
+     "hero": "Lesley",
+     "edge": 3.0
+    },
+    {
+     "hero": "Aamon",
+     "edge": 2.8
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.5
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Wanwan",
+     "edge": 3.4
+    },
+    {
+     "hero": "Ling",
+     "edge": 3.0
+    },
+    {
+     "hero": "Fanny",
+     "edge": 2.9
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.4
+    },
+    {
+     "hero": "Irithel",
+     "edge": 2.3
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.3
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.2
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 2.0
+    },
+    {
+     "hero": "Hirara",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/bruno",
+   "wiki": "https://liquipedia.net/mobilelegends/Bruno"
+  },
+  {
+   "name": "Carmilla",
+   "title": "the Shadow of Twilight",
+   "roles": [
+    "Support",
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "17 January 2020",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Valentina",
+     "edge": 4.1
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.3
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.3
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.1
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Popol and Kupa",
+     "edge": 3.6
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.3
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.2
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.2
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.1
+    },
+    {
+     "hero": "Vexana",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/carmilla",
+   "wiki": "https://liquipedia.net/mobilelegends/Carmilla"
+  },
+  {
+   "name": "Cecilion",
+   "title": "the Embrace of Night",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Burst"
+   ],
+   "region": "Moniyan Empire",
+   "release": "12 February 2020",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Hanzo",
+     "edge": 1.9
+    },
+    {
+     "hero": "Ixia",
+     "edge": 1.7
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 1.7
+    },
+    {
+     "hero": "Natalia",
+     "edge": 1.6
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Akai",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/cecilion",
+   "wiki": "https://liquipedia.net/mobilelegends/Cecilion"
+  },
+  {
+   "name": "Chang'e",
+   "title": "the Moon Palace Immortal",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Burst"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "30 May 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 5.6
+    },
+    {
+     "hero": "Gloo",
+     "edge": 2.8
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.4
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 2.3
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Diggie",
+     "edge": 2.7
+    },
+    {
+     "hero": "Balmond",
+     "edge": 1.7
+    },
+    {
+     "hero": "Valir",
+     "edge": 1.5
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 1.5
+    },
+    {
+     "hero": "Alpha",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/change",
+   "wiki": "https://liquipedia.net/mobilelegends/Chang'e"
+  },
+  {
+   "name": "Chip",
+   "title": "the Phase Technician",
+   "roles": [
+    "Support",
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Support",
+    "Crowd Control"
+   ],
+   "region": "Laboratory 1718",
+   "release": "16 March 2024",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Baxia",
+     "edge": 4.8
+    },
+    {
+     "hero": "Alice",
+     "edge": 4.0
+    },
+    {
+     "hero": "Odette",
+     "edge": 3.1
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.5
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.5
+    },
+    {
+     "hero": "Martis",
+     "edge": 2.5
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.4
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 1.9
+    },
+    {
+     "hero": "Vexana",
+     "edge": 1.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 2.9
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.7
+    },
+    {
+     "hero": "Selena",
+     "edge": 2.6
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.5
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.4
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.1
+    },
+    {
+     "hero": "Chou",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/chip",
+   "wiki": "https://liquipedia.net/mobilelegends/Chip"
+  },
+  {
+   "name": "Chou",
+   "title": "the Kung Fu Boy",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Roam"
+   ],
+   "specialties": [
+    "Chase",
+    "Control"
+   ],
+   "region": "Agelta Drylands",
+   "release": "December 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 2.8
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 2.5
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 2.4
+    },
+    {
+     "hero": "Khufra",
+     "edge": 1.9
+    },
+    {
+     "hero": "Chip",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.2
+    },
+    {
+     "hero": "Fanny",
+     "edge": 2.4
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 1.8
+    },
+    {
+     "hero": "Lylia",
+     "edge": 1.7
+    },
+    {
+     "hero": "Ixia",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/chou",
+   "wiki": "https://liquipedia.net/mobilelegends/Chou"
+  },
+  {
+   "name": "Cici",
+   "title": "the Buoyant Performer",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Damage",
+    "Regen"
+   ],
+   "region": "Moniyan Empire",
+   "release": "27 December 2023",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Aamon",
+     "edge": 4.4
+    },
+    {
+     "hero": "Estes",
+     "edge": 3.8
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.0
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.7
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.6
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Balmond",
+     "edge": 4.8
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 4.6
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.2
+    },
+    {
+     "hero": "Belerick",
+     "edge": 2.9
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.9
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 1.7
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/cici",
+   "wiki": "https://liquipedia.net/mobilelegends/Cici"
+  },
+  {
+   "name": "Claude",
+   "title": "the Master Thief",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Burst",
+    "Chase"
+   ],
+   "region": "Los Pecados",
+   "release": "7 August 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Lesley",
+     "edge": 3.9
+    },
+    {
+     "hero": "Aamon",
+     "edge": 2.9
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.5
+    },
+    {
+     "hero": "Natan",
+     "edge": 2.4
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 2.6
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 2.4
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.3
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.0
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 1.8
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/claude",
+   "wiki": "https://liquipedia.net/mobilelegends/Claude"
+  },
+  {
+   "name": "Clint",
+   "title": "the West Justice",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Burst"
+   ],
+   "region": "Agelta Drylands",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Fanny",
+     "edge": 2.6
+    },
+    {
+     "hero": "Harith",
+     "edge": 1.5
+    },
+    {
+     "hero": "Saber",
+     "edge": 1.5
+    },
+    {
+     "hero": "Alice",
+     "edge": 1.4
+    },
+    {
+     "hero": "Gloo",
+     "edge": 1.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 4.8
+    },
+    {
+     "hero": "Karina",
+     "edge": 3.1
+    },
+    {
+     "hero": "Belerick",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lunox",
+     "edge": 1.7
+    },
+    {
+     "hero": "Marcel",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/clint",
+   "wiki": "https://liquipedia.net/mobilelegends/Clint"
+  },
+  {
+   "name": "Cyclops",
+   "title": "the Starsoul Magician",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Control"
+   ],
+   "region": "Nebula Chronorift",
+   "release": "2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 9.4
+    },
+    {
+     "hero": "Estes",
+     "edge": 3.9
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.7
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.6
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 4.8
+    },
+    {
+     "hero": "Joy",
+     "edge": 3.7
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.6
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 3.4
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 3.0
+    },
+    {
+     "hero": "Chou",
+     "edge": 2.4
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.4
+    },
+    {
+     "hero": "Moskov",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/cyclops",
+   "wiki": "https://liquipedia.net/mobilelegends/Cyclops"
+  },
+  {
+   "name": "Diggie",
+   "title": "the Timekeeper",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Guard",
+    "Poke"
+   ],
+   "region": "Eruditio",
+   "release": "19 November 2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Esmeralda",
+     "edge": 3.6
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 3.5
+    },
+    {
+     "hero": "Estes",
+     "edge": 3.5
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.0
+    },
+    {
+     "hero": "Franco",
+     "edge": 3.0
+    },
+    {
+     "hero": "Sun",
+     "edge": 3.0
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.8
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.8
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.8
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.8
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 2.7
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.4
+    },
+    {
+     "hero": "Novaria",
+     "edge": 2.3
+    },
+    {
+     "hero": "Layla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.1
+    },
+    {
+     "hero": "Grock",
+     "edge": 1.8
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 1.8
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Alice",
+     "edge": 3.5
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.7
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 2.7
+    },
+    {
+     "hero": "Cici",
+     "edge": 2.6
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.6
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.5
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.4
+    },
+    {
+     "hero": "Brody",
+     "edge": 1.9
+    },
+    {
+     "hero": "Badang",
+     "edge": 1.9
+    },
+    {
+     "hero": "Zetian",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/diggie",
+   "wiki": "https://liquipedia.net/mobilelegends/Diggie"
+  },
+  {
+   "name": "Dyrroth",
+   "title": "the Prince of the Abyss",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Jungle"
+   ],
+   "specialties": [
+    "Charge",
+    "Burst"
+   ],
+   "region": "Abyss",
+   "release": "25 June 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Johnson",
+     "edge": 2.1
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.0
+    },
+    {
+     "hero": "Nana",
+     "edge": 1.8
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 1.8
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Esmeralda",
+     "edge": 3.2
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.9
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.8
+    },
+    {
+     "hero": "Valentina",
+     "edge": 2.2
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.1
+    },
+    {
+     "hero": "Moskov",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/dyrroth",
+   "wiki": "https://liquipedia.net/mobilelegends/Dyrroth"
+  },
+  {
+   "name": "Edith",
+   "title": "the Ancient Guard",
+   "roles": [
+    "Tank",
+    "Marksman"
+   ],
+   "lanes": [
+    "EXP",
+    "Roam"
+   ],
+   "specialties": [
+    "Control",
+    "Burst"
+   ],
+   "region": "Sanctum Island",
+   "release": "24 December 2021",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 6.4
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.7
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.4
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.4
+    },
+    {
+     "hero": "Layla",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Alice",
+     "edge": 3.7
+    },
+    {
+     "hero": "Faramis",
+     "edge": 3.2
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.9
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 2.8
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.5
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.5
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.2
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.1
+    },
+    {
+     "hero": "Melissa",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/edith",
+   "wiki": "https://liquipedia.net/mobilelegends/Edith"
+  },
+  {
+   "name": "Esmeralda",
+   "title": "the Astrologer",
+   "roles": [
+    "Tank",
+    "Mage"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Regen",
+    "Mixed Damage"
+   ],
+   "region": "Agelta Drylands",
+   "release": "3 April 2019",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Lunox",
+     "edge": 3.4
+    },
+    {
+     "hero": "Karrie",
+     "edge": 3.3
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 3.2
+    },
+    {
+     "hero": "Natan",
+     "edge": 3.1
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.6
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.4
+    },
+    {
+     "hero": "Julian",
+     "edge": 2.4
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 5.7
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 4.3
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.7
+    },
+    {
+     "hero": "Diggie",
+     "edge": 3.6
+    },
+    {
+     "hero": "Yin",
+     "edge": 3.6
+    },
+    {
+     "hero": "Aldous",
+     "edge": 3.5
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 3.5
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 3.3
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 3.3
+    },
+    {
+     "hero": "Akai",
+     "edge": 3.1
+    },
+    {
+     "hero": "Hilda",
+     "edge": 3.0
+    },
+    {
+     "hero": "Paquito",
+     "edge": 3.0
+    },
+    {
+     "hero": "Grock",
+     "edge": 2.8
+    },
+    {
+     "hero": "Chou",
+     "edge": 2.5
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 2.3
+    },
+    {
+     "hero": "Badang",
+     "edge": 2.2
+    },
+    {
+     "hero": "Granger",
+     "edge": 1.9
+    },
+    {
+     "hero": "Freya",
+     "edge": 1.8
+    },
+    {
+     "hero": "Roger",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/esmeralda",
+   "wiki": "https://liquipedia.net/mobilelegends/Esmeralda"
+  },
+  {
+   "name": "Estes",
+   "title": "the Moon Elf King",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Regen",
+    "Guard"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Ixia",
+     "edge": 5.4
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 5.1
+    },
+    {
+     "hero": "Sora",
+     "edge": 4.6
+    },
+    {
+     "hero": "Nolan",
+     "edge": 4.0
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 3.4
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.6
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.0
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Faramis",
+     "edge": 3.5
+    },
+    {
+     "hero": "Diggie",
+     "edge": 3.5
+    },
+    {
+     "hero": "Masha",
+     "edge": 3.4
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.7
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.5
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.5
+    },
+    {
+     "hero": "Aulus",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/estes",
+   "wiki": "https://liquipedia.net/mobilelegends/Estes"
+  },
+  {
+   "name": "Eudora",
+   "title": "the Lightning Weaver",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Control",
+    "Burst"
+   ],
+   "region": "Northern Vale",
+   "release": "2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Atlas",
+     "edge": 2.7
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.6
+    },
+    {
+     "hero": "Barats",
+     "edge": 2.1
+    },
+    {
+     "hero": "Leomord",
+     "edge": 1.8
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Floryn",
+     "edge": 2.3
+    },
+    {
+     "hero": "Irithel",
+     "edge": 2.2
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.1
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.0
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 1.9
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/eudora",
+   "wiki": "https://liquipedia.net/mobilelegends/Eudora"
+  },
+  {
+   "name": "Fanny",
+   "title": "the Blade Dancer",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Finisher"
+   ],
+   "region": "Moniyan Empire",
+   "release": "30 September 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Moskov",
+     "edge": 3.0
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.9
+    },
+    {
+     "hero": "Badang",
+     "edge": 2.7
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.7
+    },
+    {
+     "hero": "Kalea",
+     "edge": 2.6
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.4
+    },
+    {
+     "hero": "Chou",
+     "edge": 2.4
+    },
+    {
+     "hero": "Lukas",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yve",
+     "edge": 3.6
+    },
+    {
+     "hero": "Granger",
+     "edge": 3.5
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.4
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.0
+    },
+    {
+     "hero": "Clint",
+     "edge": 2.6
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/fanny",
+   "wiki": "https://liquipedia.net/mobilelegends/Fanny"
+  },
+  {
+   "name": "Faramis",
+   "title": "the Soul Binder",
+   "roles": [
+    "Support",
+    "Mage"
+   ],
+   "lanes": [
+    "Mid",
+    "Roam"
+   ],
+   "specialties": [
+    "Guard",
+    "Charge"
+   ],
+   "region": "The Barren Lands",
+   "release": "18 May 2019",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 3.6
+    },
+    {
+     "hero": "Estes",
+     "edge": 3.5
+    },
+    {
+     "hero": "Angela",
+     "edge": 3.5
+    },
+    {
+     "hero": "Edith",
+     "edge": 3.2
+    },
+    {
+     "hero": "Yin",
+     "edge": 3.1
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.9
+    },
+    {
+     "hero": "Julian",
+     "edge": 2.9
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.7
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.4
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.3
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.2
+    },
+    {
+     "hero": "Xavier",
+     "edge": 2.1
+    },
+    {
+     "hero": "Bane",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 6.3
+    },
+    {
+     "hero": "Sun",
+     "edge": 3.4
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.6
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.5
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.5
+    },
+    {
+     "hero": "Roger",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/faramis",
+   "wiki": "https://liquipedia.net/mobilelegends/Faramis"
+  },
+  {
+   "name": "Floryn",
+   "title": "the Budding Hope",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Poke",
+    "Guard"
+   ],
+   "region": "Agelta Drylands",
+   "release": "22 September 2021",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 4.2
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.8
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.6
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.3
+    },
+    {
+     "hero": "Eudora",
+     "edge": 2.3
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Marcel",
+     "edge": 4.4
+    },
+    {
+     "hero": "Alice",
+     "edge": 4.1
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.6
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.9
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.7
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.5
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 2.3
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.2
+    },
+    {
+     "hero": "Zetian",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/floryn",
+   "wiki": "https://liquipedia.net/mobilelegends/Floryn"
+  },
+  {
+   "name": "Franco",
+   "title": "the Frozen Warrior",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Initiator",
+    "Control"
+   ],
+   "region": "Northern Vale",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Hanzo",
+     "edge": 2.8
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.6
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.4
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.1
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.1
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Diggie",
+     "edge": 3.0
+    },
+    {
+     "hero": "Fanny",
+     "edge": 2.7
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.6
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.2
+    },
+    {
+     "hero": "Estes",
+     "edge": 2.0
+    },
+    {
+     "hero": "Freya",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/franco",
+   "wiki": "https://liquipedia.net/mobilelegends/Franco"
+  },
+  {
+   "name": "Fredrinn",
+   "title": "the Rogue Appraiser",
+   "roles": [
+    "Fighter",
+    "Tank"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Damage",
+    "Chase"
+   ],
+   "region": "Los Pecados",
+   "release": "12 August 2022",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Valir",
+     "edge": 4.0
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.4
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.3
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.3
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 3.5
+    },
+    {
+     "hero": "Joy",
+     "edge": 3.4
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.7
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 2.4
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.3
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.0
+    },
+    {
+     "hero": "Paquito",
+     "edge": 1.9
+    },
+    {
+     "hero": "Selena",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/fredrinn",
+   "wiki": "https://liquipedia.net/mobilelegends/Fredrinn"
+  },
+  {
+   "name": "Freya",
+   "title": "the Valkyrie",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Northern Vale",
+   "release": "November 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 5.2
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 4.6
+    },
+    {
+     "hero": "Franco",
+     "edge": 1.8
+    },
+    {
+     "hero": "Baxia",
+     "edge": 1.8
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 1.8
+    },
+    {
+     "hero": "Nana",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yve",
+     "edge": 3.5
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.4
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.9
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.2
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.1
+    },
+    {
+     "hero": "Kagura",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/freya",
+   "wiki": "https://liquipedia.net/mobilelegends/Freya"
+  },
+  {
+   "name": "Gatotkaca",
+   "title": "the Mighty Legend",
+   "roles": [
+    "Tank",
+    "Fighter"
+   ],
+   "lanes": [
+    "Roam",
+    "EXP"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Burst"
+   ],
+   "region": "Nebula Chronorift",
+   "release": "July 2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.3
+    },
+    {
+     "hero": "Lesley",
+     "edge": 3.0
+    },
+    {
+     "hero": "Uranus",
+     "edge": 3.0
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.1
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.0
+    },
+    {
+     "hero": "Aldous",
+     "edge": 1.9
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Odette",
+     "edge": 3.1
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.4
+    },
+    {
+     "hero": "Miya",
+     "edge": 2.3
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.3
+    },
+    {
+     "hero": "Argus",
+     "edge": 1.9
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/gatotkaca",
+   "wiki": "https://liquipedia.net/mobilelegends/Gatotkaca"
+  },
+  {
+   "name": "Gloo",
+   "title": "the Swamp Spirits",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam",
+    "EXP"
+   ],
+   "specialties": [
+    "Regen",
+    "Control"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "16 April 2021",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Faramis",
+     "edge": 6.3
+    },
+    {
+     "hero": "Moskov",
+     "edge": 5.3
+    },
+    {
+     "hero": "Natan",
+     "edge": 4.6
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.7
+    },
+    {
+     "hero": "Masha",
+     "edge": 3.6
+    },
+    {
+     "hero": "Ling",
+     "edge": 3.6
+    },
+    {
+     "hero": "Ruby",
+     "edge": 3.6
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 3.5
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 3.5
+    },
+    {
+     "hero": "Aulus",
+     "edge": 3.4
+    },
+    {
+     "hero": "Fanny",
+     "edge": 3.4
+    },
+    {
+     "hero": "Vexana",
+     "edge": 3.3
+    },
+    {
+     "hero": "Lunox",
+     "edge": 3.1
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 3.0
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 2.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Aamon",
+     "edge": 4.6
+    },
+    {
+     "hero": "Johnson",
+     "edge": 3.8
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 3.6
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 2.8
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.8
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.8
+    },
+    {
+     "hero": "Vale",
+     "edge": 2.8
+    },
+    {
+     "hero": "Harley",
+     "edge": 2.7
+    },
+    {
+     "hero": "Nana",
+     "edge": 2.7
+    },
+    {
+     "hero": "Selena",
+     "edge": 2.2
+    },
+    {
+     "hero": "Zetian",
+     "edge": 1.9
+    },
+    {
+     "hero": "Novaria",
+     "edge": 1.9
+    },
+    {
+     "hero": "Gusion",
+     "edge": 1.8
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.6
+    },
+    {
+     "hero": "Clint",
+     "edge": 1.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/gloo",
+   "wiki": "https://liquipedia.net/mobilelegends/Gloo"
+  },
+  {
+   "name": "Gord",
+   "title": "the Professor of the Mystics",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Burst"
+   ],
+   "region": "Northern Vale",
+   "release": "November 2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Natalia",
+     "edge": 3.2
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.8
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.6
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.4
+    },
+    {
+     "hero": "Harley",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Barats",
+     "edge": 3.6
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.8
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.2
+    },
+    {
+     "hero": "Ruby",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/gord",
+   "wiki": "https://liquipedia.net/mobilelegends/Gord"
+  },
+  {
+   "name": "Granger",
+   "title": "the Death Chanter",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Burst",
+    "Finisher"
+   ],
+   "region": "Moniyan Empire",
+   "release": "23 April 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Fanny",
+     "edge": 3.5
+    },
+    {
+     "hero": "Hilda",
+     "edge": 3.0
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.0
+    },
+    {
+     "hero": "Akai",
+     "edge": 1.9
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Karina",
+     "edge": 4.6
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.5
+    },
+    {
+     "hero": "Natan",
+     "edge": 2.3
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/granger",
+   "wiki": "https://liquipedia.net/mobilelegends/Granger"
+  },
+  {
+   "name": "Grock",
+   "title": "the Fortress Titan",
+   "roles": [
+    "Tank",
+    "Fighter"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Initiator"
+   ],
+   "region": "The Barren Lands",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 3.3
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 2.8
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.4
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.2
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 2.1
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.0
+    },
+    {
+     "hero": "Johnson",
+     "edge": 1.9
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.8
+    },
+    {
+     "hero": "Diggie",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/grock",
+   "wiki": "https://liquipedia.net/mobilelegends/Grock"
+  },
+  {
+   "name": "Guinevere",
+   "title": "the Ms. Violet",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Burst",
+    "Magic Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "21 February 2019",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Wanwan",
+     "edge": 3.0
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.7
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.6
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.2
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.0
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Julian",
+     "edge": 2.0
+    },
+    {
+     "hero": "Karrie",
+     "edge": 1.9
+    },
+    {
+     "hero": "Lunox",
+     "edge": 1.9
+    },
+    {
+     "hero": "Yve",
+     "edge": 1.9
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/guinevere",
+   "wiki": "https://liquipedia.net/mobilelegends/Guinevere"
+  },
+  {
+   "name": "Gusion",
+   "title": "the Holy Blade",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle",
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Magic Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 3.0
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.4
+    },
+    {
+     "hero": "Roger",
+     "edge": 2.2
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.1
+    },
+    {
+     "hero": "Gloo",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yve",
+     "edge": 2.3
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.3
+    },
+    {
+     "hero": "Aamon",
+     "edge": 2.2
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.1
+    },
+    {
+     "hero": "Natalia",
+     "edge": 1.7
+    },
+    {
+     "hero": "Suyou",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/gusion",
+   "wiki": "https://liquipedia.net/mobilelegends/Gusion"
+  },
+  {
+   "name": "Hanabi",
+   "title": "the Scarlet Flower",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "17 April 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 4.0
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 3.3
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.9
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.8
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.5
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 2.3
+    },
+    {
+     "hero": "Lylia",
+     "edge": 2.1
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.1
+    },
+    {
+     "hero": "Novaria",
+     "edge": 2.0
+    },
+    {
+     "hero": "Kagura",
+     "edge": 1.8
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Popol and Kupa",
+     "edge": 3.0
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.6
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.1
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.0
+    },
+    {
+     "hero": "Moskov",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/hanabi",
+   "wiki": "https://liquipedia.net/mobilelegends/Hanabi"
+  },
+  {
+   "name": "Hanzo",
+   "title": "the Akuma Ninja",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Burst",
+    "Poke"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "4 December 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Natalia",
+     "edge": 4.6
+    },
+    {
+     "hero": "Ling",
+     "edge": 3.4
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.7
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.5
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.3
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Diggie",
+     "edge": 3.5
+    },
+    {
+     "hero": "Ixia",
+     "edge": 3.2
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.8
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.5
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.2
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 1.9
+    },
+    {
+     "hero": "Bane",
+     "edge": 1.8
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/hanzo",
+   "wiki": "https://liquipedia.net/mobilelegends/Hanzo"
+  },
+  {
+   "name": "Harith",
+   "title": "the Time Traveler",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "6 November 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 4.9
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 3.3
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.8
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.5
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 2.4
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.3
+    },
+    {
+     "hero": "Akai",
+     "edge": 2.3
+    },
+    {
+     "hero": "Freya",
+     "edge": 2.2
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 3.4
+    },
+    {
+     "hero": "Yve",
+     "edge": 3.0
+    },
+    {
+     "hero": "Suyou",
+     "edge": 2.6
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.6
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.5
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.5
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 2.0
+    },
+    {
+     "hero": "Kagura",
+     "edge": 2.0
+    },
+    {
+     "hero": "Zetian",
+     "edge": 1.7
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 1.6
+    },
+    {
+     "hero": "Clint",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/harith",
+   "wiki": "https://liquipedia.net/mobilelegends/Harith"
+  },
+  {
+   "name": "Harley",
+   "title": "the Mage Genius",
+   "roles": [
+    "Assassin",
+    "Mage"
+   ],
+   "lanes": [
+    "Jungle",
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Poke"
+   ],
+   "region": "Northern Vale",
+   "release": "29 July 2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 5.1
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.8
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.8
+    },
+    {
+     "hero": "Gloo",
+     "edge": 2.7
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.5
+    },
+    {
+     "hero": "Roger",
+     "edge": 2.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Alice",
+     "edge": 2.3
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.1
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.0
+    },
+    {
+     "hero": "Melissa",
+     "edge": 1.9
+    },
+    {
+     "hero": "Joy",
+     "edge": 1.8
+    },
+    {
+     "hero": "Suyou",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/harley",
+   "wiki": "https://liquipedia.net/mobilelegends/Harley"
+  },
+  {
+   "name": "Hayabusa",
+   "title": "the Crimson Shadow",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "4 November 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Saber",
+     "edge": 2.6
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.0
+    },
+    {
+     "hero": "Zhask",
+     "edge": 1.8
+    },
+    {
+     "hero": "Eudora",
+     "edge": 1.8
+    },
+    {
+     "hero": "Badang",
+     "edge": 1.3
+    }
+   ],
+   "counters": [],
+   "src": "https://mlbbhub.com/counter/hayabusa",
+   "wiki": "https://liquipedia.net/mobilelegends/Hayabusa"
+  },
+  {
+   "name": "Helcurt",
+   "title": "the Shadowbringer",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle",
+    "Roam"
+   ],
+   "specialties": [
+    "Push",
+    "Burst"
+   ],
+   "region": "Abyss",
+   "release": "24 November 2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Mathilda",
+     "edge": 3.0
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.8
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.7
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.7
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.5
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.4
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.4
+    },
+    {
+     "hero": "Eudora",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lukas",
+     "edge": 1.9
+    },
+    {
+     "hero": "Kalea",
+     "edge": 1.8
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 1.7
+    },
+    {
+     "hero": "Zetian",
+     "edge": 1.7
+    },
+    {
+     "hero": "Roger",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.4
+    },
+    {
+     "hero": "Valir",
+     "edge": 3.2
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.8
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.8
+    },
+    {
+     "hero": "Xavier",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 2.3
+    },
+    {
+     "hero": "Bane",
+     "edge": 2.1
+    },
+    {
+     "hero": "Nolan",
+     "edge": 1.7
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/helcurt",
+   "wiki": "https://liquipedia.net/mobilelegends/Helcurt"
+  },
+  {
+   "name": "Hilda",
+   "title": "the Power of Megalith",
+   "roles": [
+    "Fighter",
+    "Tank"
+   ],
+   "lanes": [
+    "Roam",
+    "EXP"
+   ],
+   "specialties": [
+    "Damage",
+    "Regen"
+   ],
+   "region": "Northern Vale",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Karrie",
+     "edge": 3.2
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.0
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.8
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.6
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.6
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.4
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Aamon",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Granger",
+     "edge": 3.0
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.7
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.5
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.5
+    },
+    {
+     "hero": "Harley",
+     "edge": 2.5
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 2.0
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.9
+    },
+    {
+     "hero": "Novaria",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/hilda",
+   "wiki": "https://liquipedia.net/mobilelegends/Hilda"
+  },
+  {
+   "name": "Hirara",
+   "title": "the Fallen Scarlet",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Finisher"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "17 June 2026",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Saber",
+     "edge": 2.6
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.1
+    },
+    {
+     "hero": "Bruno",
+     "edge": 1.9
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 1.8
+    },
+    {
+     "hero": "Odette",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Hanzo",
+     "edge": 2.7
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.5
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.2
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/hirara",
+   "wiki": "https://liquipedia.net/mobilelegends/Hirara"
+  },
+  {
+   "name": "Hylos",
+   "title": "the Grand Warden",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Guard",
+    "Initiator"
+   ],
+   "region": "Agelta Drylands",
+   "release": "2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 4.2
+    },
+    {
+     "hero": "Yve",
+     "edge": 3.3
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 3.0
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.9
+    },
+    {
+     "hero": "Cici",
+     "edge": 2.9
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Zilong",
+     "edge": 2.5
+    },
+    {
+     "hero": "Layla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.1
+    },
+    {
+     "hero": "Nana",
+     "edge": 2.1
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.0
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.8
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/hylos",
+   "wiki": "https://liquipedia.net/mobilelegends/Hylos"
+  },
+  {
+   "name": "Irithel",
+   "title": "the Jungle Heart",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Burst"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "15 August 2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Brody",
+     "edge": 2.9
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.4
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.3
+    },
+    {
+     "hero": "Eudora",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yin",
+     "edge": 2.7
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 1.9
+    },
+    {
+     "hero": "Sun",
+     "edge": 1.8
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 1.8
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/irithel",
+   "wiki": "https://liquipedia.net/mobilelegends/Irithel"
+  },
+  {
+   "name": "Ixia",
+   "title": "the Arclight Outlaw",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Eruditio",
+   "release": "8 July 2023",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Wanwan",
+     "edge": 4.2
+    },
+    {
+     "hero": "Natalia",
+     "edge": 3.3
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 3.2
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.8
+    },
+    {
+     "hero": "Kadita",
+     "edge": 2.7
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.7
+    },
+    {
+     "hero": "Granger",
+     "edge": 2.2
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.2
+    },
+    {
+     "hero": "Selena",
+     "edge": 1.9
+    },
+    {
+     "hero": "Chou",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Estes",
+     "edge": 5.4
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.8
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 2.6
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.5
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.3
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/ixia",
+   "wiki": "https://liquipedia.net/mobilelegends/Ixia"
+  },
+  {
+   "name": "Jawhead",
+   "title": "the Steel Sweetheart",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Roam",
+    "EXP"
+   ],
+   "specialties": [
+    "Charge",
+    "Burst"
+   ],
+   "region": "Laboratory 1718",
+   "release": "January 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Sun",
+     "edge": 3.7
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.6
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.3
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.4
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Helcurt",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/jawhead",
+   "wiki": "https://liquipedia.net/mobilelegends/Jawhead"
+  },
+  {
+   "name": "Johnson",
+   "title": "the Wild Engine",
+   "roles": [
+    "Tank",
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Support",
+    "Crowd Control"
+   ],
+   "region": "Eruditio",
+   "release": "14 March 2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Gloo",
+     "edge": 3.8
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.2
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.1
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.7
+    },
+    {
+     "hero": "Belerick",
+     "edge": 2.7
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.6
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.6
+    },
+    {
+     "hero": "Kadita",
+     "edge": 2.5
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.5
+    },
+    {
+     "hero": "Lylia",
+     "edge": 2.4
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.3
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.2
+    },
+    {
+     "hero": "Grock",
+     "edge": 1.9
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Layla",
+     "edge": 2.5
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.5
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 2.1
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/johnson",
+   "wiki": "https://liquipedia.net/mobilelegends/Johnson"
+  },
+  {
+   "name": "Joy",
+   "title": "the Flash of Miracle",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "18 November 2022",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Moskov",
+     "edge": 4.4
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 3.7
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 3.4
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.7
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.6
+    },
+    {
+     "hero": "Brody",
+     "edge": 2.5
+    },
+    {
+     "hero": "Harley",
+     "edge": 1.8
+    },
+    {
+     "hero": "Martis",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Sun",
+     "edge": 4.0
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 3.5
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.2
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.9
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.9
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.7
+    },
+    {
+     "hero": "Lylia",
+     "edge": 2.7
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.2
+    },
+    {
+     "hero": "Suyou",
+     "edge": 2.0
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/joy",
+   "wiki": "https://liquipedia.net/mobilelegends/Joy"
+  },
+  {
+   "name": "Julian",
+   "title": "the Scarlet Raven",
+   "roles": [
+    "Assassin",
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Chase",
+    "Magic Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "24 May 2022",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Guinevere",
+     "edge": 2.0
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 1.8
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 1.8
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 1.4
+    },
+    {
+     "hero": "Baxia",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Faramis",
+     "edge": 2.9
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.4
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 2.4
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 1.9
+    },
+    {
+     "hero": "Angela",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/julian",
+   "wiki": "https://liquipedia.net/mobilelegends/Julian"
+  },
+  {
+   "name": "Kadita",
+   "title": "the Ocean Goddess",
+   "roles": [
+    "Mage",
+    "Assassin"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Charge"
+   ],
+   "region": "Vonetis Sea",
+   "release": "18 December 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Marcel",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.2
+    },
+    {
+     "hero": "Balmond",
+     "edge": 1.7
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.6
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 5.4
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.7
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.5
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 1.7
+    },
+    {
+     "hero": "Yve",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/kadita",
+   "wiki": "https://liquipedia.net/mobilelegends/Kadita"
+  },
+  {
+   "name": "Kagura",
+   "title": "the Onmyouji Master",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Finisher"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "December 2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Odette",
+     "edge": 2.2
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.0
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.0
+    },
+    {
+     "hero": "Freya",
+     "edge": 1.8
+    },
+    {
+     "hero": "Leomord",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 4.5
+    },
+    {
+     "hero": "Valir",
+     "edge": 1.8
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 1.8
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 1.8
+    },
+    {
+     "hero": "Sun",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/kagura",
+   "wiki": "https://liquipedia.net/mobilelegends/Kagura"
+  },
+  {
+   "name": "Kaja",
+   "title": "the Nazar King",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Initiator",
+    "Charge"
+   ],
+   "region": "Celestial Palace",
+   "release": "25 April 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Odette",
+     "edge": 4.6
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.9
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.8
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.1
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Valir",
+     "edge": 3.5
+    },
+    {
+     "hero": "Akai",
+     "edge": 2.9
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.6
+    },
+    {
+     "hero": "Grock",
+     "edge": 2.4
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.2
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.2
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/kaja",
+   "wiki": "https://liquipedia.net/mobilelegends/Kaja"
+  },
+  {
+   "name": "Kalea",
+   "title": "the Surging Wave",
+   "roles": [
+    "Support",
+    "Fighter"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Control",
+    "Regen"
+   ],
+   "region": "Vonetis Sea",
+   "release": "19 March 2025",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 2.0
+    },
+    {
+     "hero": "Balmond",
+     "edge": 1.8
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.7
+    },
+    {
+     "hero": "Bane",
+     "edge": 1.6
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Fanny",
+     "edge": 2.6
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.3
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.1
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.0
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/kalea",
+   "wiki": "https://liquipedia.net/mobilelegends/Kalea"
+  },
+  {
+   "name": "Karina",
+   "title": "the Shadow Blade",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Finisher",
+    "Magic Damage"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Granger",
+     "edge": 4.6
+    },
+    {
+     "hero": "Brody",
+     "edge": 4.1
+    },
+    {
+     "hero": "Lunox",
+     "edge": 3.2
+    },
+    {
+     "hero": "Clint",
+     "edge": 3.1
+    },
+    {
+     "hero": "Gloo",
+     "edge": 2.8
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.6
+    },
+    {
+     "hero": "Paquito",
+     "edge": 2.5
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.5
+    },
+    {
+     "hero": "Ruby",
+     "edge": 2.2
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 4.0
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 3.6
+    },
+    {
+     "hero": "Sun",
+     "edge": 3.1
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.0
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.9
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.8
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.7
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.4
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.4
+    },
+    {
+     "hero": "Badang",
+     "edge": 2.0
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/karina",
+   "wiki": "https://liquipedia.net/mobilelegends/Karina"
+  },
+  {
+   "name": "Karrie",
+   "title": "the Lost Star",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Alaghat",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Sun",
+     "edge": 2.7
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.7
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.6
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.6
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.3
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Alice",
+     "edge": 4.0
+    },
+    {
+     "hero": "Baxia",
+     "edge": 3.5
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.3
+    },
+    {
+     "hero": "Balmond",
+     "edge": 3.2
+    },
+    {
+     "hero": "Hilda",
+     "edge": 3.2
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.9
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.8
+    },
+    {
+     "hero": "Leomord",
+     "edge": 2.8
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.4
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.1
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/karrie",
+   "wiki": "https://liquipedia.net/mobilelegends/Karrie"
+  },
+  {
+   "name": "Khaleed",
+   "title": "the Desert Scimitar",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Roam",
+    "EXP"
+   ],
+   "specialties": [
+    "Damage",
+    "Regen"
+   ],
+   "region": "Agelta Drylands",
+   "release": "7 August 2020",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Joy",
+     "edge": 2.9
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.6
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.5
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.5
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.3
+    },
+    {
+     "hero": "Kalea",
+     "edge": 2.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yin",
+     "edge": 2.6
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.6
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.4
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.1
+    },
+    {
+     "hero": "Nana",
+     "edge": 1.9
+    },
+    {
+     "hero": "Miya",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/khaleed",
+   "wiki": "https://liquipedia.net/mobilelegends/Khaleed"
+  },
+  {
+   "name": "Khufra",
+   "title": "the Desert Tyrant",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Initiator",
+    "Crowd Control"
+   ],
+   "region": "Agelta Drylands",
+   "release": "12 March 2019",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Zhuxin",
+     "edge": 4.0
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.4
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.7
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.6
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.5
+    },
+    {
+     "hero": "Bane",
+     "edge": 2.5
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 2.1
+    },
+    {
+     "hero": "Arlott",
+     "edge": 1.9
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Wanwan",
+     "edge": 3.5
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 3.4
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.8
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.7
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.6
+    },
+    {
+     "hero": "Akai",
+     "edge": 2.6
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 2.6
+    },
+    {
+     "hero": "Layla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.3
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.1
+    },
+    {
+     "hero": "Paquito",
+     "edge": 2.1
+    },
+    {
+     "hero": "Chou",
+     "edge": 1.9
+    },
+    {
+     "hero": "Brody",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/khufra",
+   "wiki": "https://liquipedia.net/mobilelegends/Khufra"
+  },
+  {
+   "name": "Kimmy",
+   "title": "the Hoverjet Outrider",
+   "roles": [
+    "Marksman",
+    "Mage"
+   ],
+   "lanes": [
+    "Mid",
+    "Gold"
+   ],
+   "specialties": [
+    "Damage",
+    "Magic Damage"
+   ],
+   "region": "Eruditio",
+   "release": "23 October 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Karina",
+     "edge": 3.6
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.5
+    },
+    {
+     "hero": "Fanny",
+     "edge": 2.5
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.5
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.3
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Sun",
+     "edge": 3.3
+    },
+    {
+     "hero": "Hylos",
+     "edge": 3.0
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.9
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.4
+    },
+    {
+     "hero": "Leomord",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/kimmy",
+   "wiki": "https://liquipedia.net/mobilelegends/Kimmy"
+  },
+  {
+   "name": "Lancelot",
+   "title": "the Blade of Roses",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "Moniyan Empire",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Angela",
+     "edge": 3.2
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.3
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.3
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.0
+    },
+    {
+     "hero": "Alucard",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Atlas",
+     "edge": 2.7
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.3
+    },
+    {
+     "hero": "Chip",
+     "edge": 1.9
+    },
+    {
+     "hero": "Alpha",
+     "edge": 1.9
+    },
+    {
+     "hero": "Johnson",
+     "edge": 1.7
+    },
+    {
+     "hero": "Aurora",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lancelot",
+   "wiki": "https://liquipedia.net/mobilelegends/Lancelot"
+  },
+  {
+   "name": "Lapu-Lapu",
+   "title": "the Courageous Blade",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "Vonetis Sea",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Esmeralda",
+     "edge": 3.5
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.0
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 1.9
+    },
+    {
+     "hero": "Claude",
+     "edge": 1.8
+    },
+    {
+     "hero": "Cici",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Silvanna",
+     "edge": 2.8
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.7
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.3
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.1
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.9
+    },
+    {
+     "hero": "Julian",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lapu-lapu",
+   "wiki": "https://liquipedia.net/mobilelegends/Lapu-Lapu"
+  },
+  {
+   "name": "Layla",
+   "title": "the Energy Gunner",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Eruditio",
+   "release": "23 September 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Atlas",
+     "edge": 3.6
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.5
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.3
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Diggie",
+     "edge": 2.3
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.2
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.0
+    },
+    {
+     "hero": "Odette",
+     "edge": 1.8
+    },
+    {
+     "hero": "Marcel",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/layla",
+   "wiki": "https://liquipedia.net/mobilelegends/Layla"
+  },
+  {
+   "name": "Leomord",
+   "title": "the Sworn Sword",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "The Barren Lands",
+   "release": "3 October 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Valir",
+     "edge": 3.1
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.8
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.5
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.3
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 3.8
+    },
+    {
+     "hero": "Saber",
+     "edge": 3.1
+    },
+    {
+     "hero": "Roger",
+     "edge": 2.4
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.4
+    },
+    {
+     "hero": "Belerick",
+     "edge": 2.3
+    },
+    {
+     "hero": "Eudora",
+     "edge": 1.8
+    },
+    {
+     "hero": "Kagura",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/leomord",
+   "wiki": "https://liquipedia.net/mobilelegends/Leomord"
+  },
+  {
+   "name": "Lesley",
+   "title": "the Deadly Sniper",
+   "roles": [
+    "Marksman",
+    "Assassin"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Burst"
+   ],
+   "region": "Moniyan Empire",
+   "release": "January 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Gloo",
+     "edge": 2.8
+    },
+    {
+     "hero": "Estes",
+     "edge": 2.7
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.5
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.3
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Claude",
+     "edge": 3.9
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.5
+    },
+    {
+     "hero": "Baxia",
+     "edge": 3.2
+    },
+    {
+     "hero": "Bruno",
+     "edge": 3.0
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 3.0
+    },
+    {
+     "hero": "Belerick",
+     "edge": 2.9
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Irithel",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lesley",
+   "wiki": "https://liquipedia.net/mobilelegends/Lesley"
+  },
+  {
+   "name": "Ling",
+   "title": "the Cyan Finch",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "24 November 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Natalia",
+     "edge": 5.6
+    },
+    {
+     "hero": "Saber",
+     "edge": 4.3
+    },
+    {
+     "hero": "Lukas",
+     "edge": 3.5
+    },
+    {
+     "hero": "Bruno",
+     "edge": 3.0
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.9
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.9
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.5
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 3.6
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.4
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 3.4
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.2
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.9
+    },
+    {
+     "hero": "Novaria",
+     "edge": 2.8
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/ling",
+   "wiki": "https://liquipedia.net/mobilelegends/Ling"
+  },
+  {
+   "name": "Lolita",
+   "title": "the Steel Elf",
+   "roles": [
+    "Support",
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Guard",
+    "Crowd Control"
+   ],
+   "region": "Eruditio",
+   "release": "28 October 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Aurora",
+     "edge": 6.5
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 6.2
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 5.7
+    },
+    {
+     "hero": "Kadita",
+     "edge": 5.4
+    },
+    {
+     "hero": "Yve",
+     "edge": 5.2
+    },
+    {
+     "hero": "Clint",
+     "edge": 4.8
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 4.6
+    },
+    {
+     "hero": "Kagura",
+     "edge": 4.5
+    },
+    {
+     "hero": "Zetian",
+     "edge": 4.4
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 4.3
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 4.1
+    },
+    {
+     "hero": "Leomord",
+     "edge": 3.8
+    },
+    {
+     "hero": "Freya",
+     "edge": 3.4
+    },
+    {
+     "hero": "Harith",
+     "edge": 3.4
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.3
+    },
+    {
+     "hero": "Zhask",
+     "edge": 3.1
+    },
+    {
+     "hero": "Melissa",
+     "edge": 3.0
+    },
+    {
+     "hero": "Gord",
+     "edge": 2.8
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.6
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.5
+    },
+    {
+     "hero": "Nana",
+     "edge": 2.3
+    },
+    {
+     "hero": "Grock",
+     "edge": 2.1
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.0
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.0
+    },
+    {
+     "hero": "Kalea",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Cyclops",
+     "edge": 9.4
+    },
+    {
+     "hero": "Edith",
+     "edge": 6.4
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 5.6
+    },
+    {
+     "hero": "Harley",
+     "edge": 5.1
+    },
+    {
+     "hero": "Bane",
+     "edge": 4.6
+    },
+    {
+     "hero": "Floryn",
+     "edge": 4.2
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 4.0
+    },
+    {
+     "hero": "Baxia",
+     "edge": 3.8
+    },
+    {
+     "hero": "Angela",
+     "edge": 3.7
+    },
+    {
+     "hero": "Aamon",
+     "edge": 3.7
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 3.5
+    },
+    {
+     "hero": "Bruno",
+     "edge": 3.5
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 3.4
+    },
+    {
+     "hero": "Xavier",
+     "edge": 3.2
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 3.1
+    },
+    {
+     "hero": "Valir",
+     "edge": 3.0
+    },
+    {
+     "hero": "Diggie",
+     "edge": 3.0
+    },
+    {
+     "hero": "Gusion",
+     "edge": 3.0
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.6
+    },
+    {
+     "hero": "Ruby",
+     "edge": 2.5
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 2.4
+    },
+    {
+     "hero": "Badang",
+     "edge": 2.1
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.0
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lolita",
+   "wiki": "https://liquipedia.net/mobilelegends/Lolita"
+  },
+  {
+   "name": "Lukas",
+   "title": "the Beast of Light",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Jungle"
+   ],
+   "specialties": [
+    "Regen",
+    "Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "21 December 2024",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Baxia",
+     "edge": 3.4
+    },
+    {
+     "hero": "Valentina",
+     "edge": 3.1
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.8
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.7
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Ling",
+     "edge": 3.5
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.3
+    },
+    {
+     "hero": "Fanny",
+     "edge": 2.1
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.0
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lukas",
+   "wiki": "https://liquipedia.net/mobilelegends/Lukas"
+  },
+  {
+   "name": "Lunox",
+   "title": "the Twilight Goddess",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Damage"
+   ],
+   "region": "Agelta Drylands",
+   "release": "4 September 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Saber",
+     "edge": 2.5
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.2
+    },
+    {
+     "hero": "Ruby",
+     "edge": 2.1
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.1
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.0
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 1.9
+    },
+    {
+     "hero": "Clint",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Esmeralda",
+     "edge": 3.4
+    },
+    {
+     "hero": "Karina",
+     "edge": 3.2
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.1
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.9
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lunox",
+   "wiki": "https://liquipedia.net/mobilelegends/Lunox"
+  },
+  {
+   "name": "Luo Yi",
+   "title": "the Yin-yang Geomancer",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Support",
+    "Crowd Control"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "16 May 2020",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Joy",
+     "edge": 3.5
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.1
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.5
+    },
+    {
+     "hero": "Novaria",
+     "edge": 2.2
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Baxia",
+     "edge": 4.1
+    },
+    {
+     "hero": "Estes",
+     "edge": 3.4
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.0
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/luo-yi",
+   "wiki": "https://liquipedia.net/mobilelegends/Luo_Yi"
+  },
+  {
+   "name": "Lylia",
+   "title": "the Little Witch",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Push",
+    "Damage"
+   ],
+   "region": "Northern Vale",
+   "release": "23 July 2019",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Joy",
+     "edge": 2.7
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 2.2
+    },
+    {
+     "hero": "Chou",
+     "edge": 1.7
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 1.6
+    },
+    {
+     "hero": "Yve",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Johnson",
+     "edge": 2.4
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.2
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.1
+    },
+    {
+     "hero": "Barats",
+     "edge": 1.9
+    },
+    {
+     "hero": "Alice",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/lylia",
+   "wiki": "https://liquipedia.net/mobilelegends/Lylia"
+  },
+  {
+   "name": "Marcel",
+   "title": "the Soul Photographer",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Support"
+   ],
+   "region": "Moniyan Empire",
+   "release": "11 March 2026",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Angela",
+     "edge": 4.5
+    },
+    {
+     "hero": "Floryn",
+     "edge": 4.4
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.7
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 3.6
+    },
+    {
+     "hero": "Lesley",
+     "edge": 3.5
+    },
+    {
+     "hero": "Aamon",
+     "edge": 3.4
+    },
+    {
+     "hero": "Odette",
+     "edge": 3.2
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 3.1
+    },
+    {
+     "hero": "Karina",
+     "edge": 3.0
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.4
+    },
+    {
+     "hero": "Xavier",
+     "edge": 1.9
+    },
+    {
+     "hero": "Layla",
+     "edge": 1.8
+    },
+    {
+     "hero": "Clint",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Atlas",
+     "edge": 5.8
+    },
+    {
+     "hero": "Sun",
+     "edge": 3.6
+    },
+    {
+     "hero": "Akai",
+     "edge": 3.5
+    },
+    {
+     "hero": "Johnson",
+     "edge": 3.1
+    },
+    {
+     "hero": "Belerick",
+     "edge": 3.0
+    },
+    {
+     "hero": "Kadita",
+     "edge": 2.8
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.6
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.6
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 2.3
+    },
+    {
+     "hero": "Martis",
+     "edge": 2.2
+    },
+    {
+     "hero": "Vexana",
+     "edge": 2.2
+    },
+    {
+     "hero": "Grock",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/marcel",
+   "wiki": "https://liquipedia.net/mobilelegends/Marcel"
+  },
+  {
+   "name": "Martis",
+   "title": "the Ashura King",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Finisher",
+    "Charge"
+   ],
+   "region": "Nebula Chronorift",
+   "release": "2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.8
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 3.0
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.2
+    },
+    {
+     "hero": "Balmond",
+     "edge": 2.0
+    },
+    {
+     "hero": "Yve",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Chip",
+     "edge": 2.5
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.3
+    },
+    {
+     "hero": "Moskov",
+     "edge": 1.9
+    },
+    {
+     "hero": "Joy",
+     "edge": 1.7
+    },
+    {
+     "hero": "Sora",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/martis",
+   "wiki": "https://liquipedia.net/mobilelegends/Martis"
+  },
+  {
+   "name": "Masha",
+   "title": "the Wild-oats Fist",
+   "roles": [
+    "Fighter",
+    "Tank"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Push",
+    "Damage"
+   ],
+   "region": "Northern Vale",
+   "release": "17 September 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Estes",
+     "edge": 3.4
+    },
+    {
+     "hero": "Freya",
+     "edge": 2.9
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.4
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.2
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.2
+    },
+    {
+     "hero": "Ruby",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 3.6
+    },
+    {
+     "hero": "Eudora",
+     "edge": 2.6
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.5
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 2.3
+    },
+    {
+     "hero": "Brody",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/masha",
+   "wiki": "https://liquipedia.net/mobilelegends/Masha"
+  },
+  {
+   "name": "Mathilda",
+   "title": "the Swift Plume",
+   "roles": [
+    "Support",
+    "Assassin"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Initiator",
+    "Guard"
+   ],
+   "region": "Los Pecados",
+   "release": "12 December 2020",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Esmeralda",
+     "edge": 4.3
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.4
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 3.4
+    },
+    {
+     "hero": "Odette",
+     "edge": 3.1
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.8
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.6
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 4.7
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.5
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 3.0
+    },
+    {
+     "hero": "Valir",
+     "edge": 3.0
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.9
+    },
+    {
+     "hero": "Lylia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 1.9
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/mathilda",
+   "wiki": "https://liquipedia.net/mobilelegends/Mathilda"
+  },
+  {
+   "name": "Melissa",
+   "title": "the Cursed Needle",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "22 February 2022",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Belerick",
+     "edge": 2.7
+    },
+    {
+     "hero": "Harley",
+     "edge": 1.9
+    },
+    {
+     "hero": "Edith",
+     "edge": 1.6
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 1.6
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 3.0
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.5
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.4
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.4
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.3
+    },
+    {
+     "hero": "Leomord",
+     "edge": 2.3
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.3
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.2
+    },
+    {
+     "hero": "Paquito",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/melissa",
+   "wiki": "https://liquipedia.net/mobilelegends/Melissa"
+  },
+  {
+   "name": "Minotaur",
+   "title": "the Son of Minos",
+   "roles": [
+    "Tank",
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control"
+   ],
+   "region": "Agelta Drylands",
+   "release": "14 October 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 2.9
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.8
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.7
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.6
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 4.6
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.9
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.8
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.7
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 2.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/minotaur",
+   "wiki": "https://liquipedia.net/mobilelegends/Minotaur"
+  },
+  {
+   "name": "Minsitthar",
+   "title": "the Courageous Warrior",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Roam"
+   ],
+   "specialties": [
+    "Initiator",
+    "Crowd Control"
+   ],
+   "region": "Vonetis Sea",
+   "release": "20 November 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Natalia",
+     "edge": 3.3
+    },
+    {
+     "hero": "Yin",
+     "edge": 2.9
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.3
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.2
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Freya",
+     "edge": 4.6
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 3.8
+    },
+    {
+     "hero": "Harith",
+     "edge": 3.3
+    },
+    {
+     "hero": "Martis",
+     "edge": 3.0
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.6
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.5
+    },
+    {
+     "hero": "Valentina",
+     "edge": 2.3
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 2.0
+    },
+    {
+     "hero": "Julian",
+     "edge": 1.8
+    },
+    {
+     "hero": "Hirara",
+     "edge": 1.8
+    },
+    {
+     "hero": "Melissa",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/minsitthar",
+   "wiki": "https://liquipedia.net/mobilelegends/Minsitthar"
+  },
+  {
+   "name": "Miya",
+   "title": "the Moonlight Archer",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Belerick",
+     "edge": 3.7
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 2.3
+    },
+    {
+     "hero": "Baxia",
+     "edge": 1.6
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 1.6
+    },
+    {
+     "hero": "Hylos",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Obsidia",
+     "edge": 2.4
+    },
+    {
+     "hero": "Moskov",
+     "edge": 2.1
+    },
+    {
+     "hero": "Harith",
+     "edge": 1.9
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 1.9
+    },
+    {
+     "hero": "Kadita",
+     "edge": 1.6
+    },
+    {
+     "hero": "Kalea",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/miya",
+   "wiki": "https://liquipedia.net/mobilelegends/Miya"
+  },
+  {
+   "name": "Moskov",
+   "title": "the Spear of Quiescence",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Chase"
+   ],
+   "region": "Agelta Drylands",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Miya",
+     "edge": 2.1
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.1
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 2.0
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 2.0
+    },
+    {
+     "hero": "Martis",
+     "edge": 1.9
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 5.3
+    },
+    {
+     "hero": "Joy",
+     "edge": 4.4
+    },
+    {
+     "hero": "Fanny",
+     "edge": 3.0
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.3
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/moskov",
+   "wiki": "https://liquipedia.net/mobilelegends/Moskov"
+  },
+  {
+   "name": "Nana",
+   "title": "the Sweet Leonin",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Burst"
+   ],
+   "region": "Azrya Woodlands",
+   "release": "2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Gloo",
+     "edge": 2.7
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.1
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 1.9
+    },
+    {
+     "hero": "Akai",
+     "edge": 1.9
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Odette",
+     "edge": 3.0
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.3
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.0
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 1.8
+    },
+    {
+     "hero": "Freya",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/nana",
+   "wiki": "https://liquipedia.net/mobilelegends/Nana"
+  },
+  {
+   "name": "Natalia",
+   "title": "the Bright Claw",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle",
+    "Roam"
+   ],
+   "specialties": [
+    "Chase",
+    "Finisher"
+   ],
+   "region": "Moniyan Empire",
+   "release": "December 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Cyclops",
+     "edge": 4.8
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 4.7
+    },
+    {
+     "hero": "Karina",
+     "edge": 4.0
+    },
+    {
+     "hero": "Paquito",
+     "edge": 3.5
+    },
+    {
+     "hero": "Saber",
+     "edge": 3.5
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 3.4
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.9
+    },
+    {
+     "hero": "Zetian",
+     "edge": 2.9
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.7
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.7
+    },
+    {
+     "hero": "Suyou",
+     "edge": 2.4
+    },
+    {
+     "hero": "Brody",
+     "edge": 2.4
+    },
+    {
+     "hero": "Leomord",
+     "edge": 2.4
+    },
+    {
+     "hero": "Lukas",
+     "edge": 2.3
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.2
+    },
+    {
+     "hero": "Gusion",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Xavier",
+     "edge": 2.9
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.5
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.1
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 2.0
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/natalia",
+   "wiki": "https://liquipedia.net/mobilelegends/Natalia"
+  },
+  {
+   "name": "Natan",
+   "title": "the Spacetime Walker",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Burst",
+    "Magic Damage"
+   ],
+   "region": "Agelta Drylands",
+   "release": "23 July 2021",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Granger",
+     "edge": 2.3
+    },
+    {
+     "hero": "Nolan",
+     "edge": 2.2
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.1
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.0
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Sun",
+     "edge": 5.0
+    },
+    {
+     "hero": "Gloo",
+     "edge": 4.6
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.1
+    },
+    {
+     "hero": "Zhask",
+     "edge": 3.0
+    },
+    {
+     "hero": "Claude",
+     "edge": 2.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/natan",
+   "wiki": "https://liquipedia.net/mobilelegends/Natan"
+  },
+  {
+   "name": "Nolan",
+   "title": "the Cosmic Wayfinder",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "Eruditio",
+   "release": "30 September 2023",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Saber",
+     "edge": 3.9
+    },
+    {
+     "hero": "Natalia",
+     "edge": 3.8
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.1
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 2.0
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Estes",
+     "edge": 4.0
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.6
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.5
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.5
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.3
+    },
+    {
+     "hero": "Natan",
+     "edge": 2.2
+    },
+    {
+     "hero": "Bane",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/nolan",
+   "wiki": "https://liquipedia.net/mobilelegends/Nolan"
+  },
+  {
+   "name": "Novaria",
+   "title": "the Star Rebel",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Poke"
+   ],
+   "region": "Eruditio",
+   "release": "16 May 2023",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Natalia",
+     "edge": 3.1
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.8
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.0
+    },
+    {
+     "hero": "Hilda",
+     "edge": 1.9
+    },
+    {
+     "hero": "Gloo",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Diggie",
+     "edge": 2.3
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 2.2
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.1
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.0
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/novaria",
+   "wiki": "https://liquipedia.net/mobilelegends/Novaria"
+  },
+  {
+   "name": "Obsidia",
+   "title": "the Sovereign of Dark's End",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Damage"
+   ],
+   "region": "Abyss",
+   "release": "17 September 2025",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Baxia",
+     "edge": 2.8
+    },
+    {
+     "hero": "Estes",
+     "edge": 2.5
+    },
+    {
+     "hero": "Miya",
+     "edge": 2.4
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.2
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Benedetta",
+     "edge": 2.9
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.8
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.2
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 2.1
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/obsidia",
+   "wiki": "https://liquipedia.net/mobilelegends/Obsidia"
+  },
+  {
+   "name": "Odette",
+   "title": "the Swan Princess",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Poke"
+   ],
+   "region": "Moniyan Empire",
+   "release": "29 September 2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Vale",
+     "edge": 3.3
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 3.1
+    },
+    {
+     "hero": "Nana",
+     "edge": 3.0
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.9
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.2
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.1
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.1
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.1
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.1
+    },
+    {
+     "hero": "Aurora",
+     "edge": 2.1
+    },
+    {
+     "hero": "Vexana",
+     "edge": 2.1
+    },
+    {
+     "hero": "Layla",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Kaja",
+     "edge": 4.6
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.2
+    },
+    {
+     "hero": "Chip",
+     "edge": 3.1
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 3.1
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.9
+    },
+    {
+     "hero": "Valentina",
+     "edge": 2.9
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.7
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.5
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.5
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 2.3
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.2
+    },
+    {
+     "hero": "Kagura",
+     "edge": 2.2
+    },
+    {
+     "hero": "Suyou",
+     "edge": 1.9
+    },
+    {
+     "hero": "Hirara",
+     "edge": 1.7
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/odette",
+   "wiki": "https://liquipedia.net/mobilelegends/Odette"
+  },
+  {
+   "name": "Paquito",
+   "title": "the Heavenly Fist",
+   "roles": [
+    "Fighter",
+    "Assassin"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "The Barren Lands",
+   "release": "15 January 2021",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Esmeralda",
+     "edge": 3.0
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.1
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 1.9
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 1.9
+    },
+    {
+     "hero": "Melissa",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 3.5
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.3
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.5
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 1.7
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/paquito",
+   "wiki": "https://liquipedia.net/mobilelegends/Paquito"
+  },
+  {
+   "name": "Pharsa",
+   "title": "the Wings of Vengeance",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Poke"
+   ],
+   "region": "The Barren Lands",
+   "release": "27 December 2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Natalia",
+     "edge": 2.0
+    },
+    {
+     "hero": "Gloo",
+     "edge": 1.6
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 1.4
+    },
+    {
+     "hero": "Zetian",
+     "edge": 1.3
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 1.2
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 4.1
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.4
+    },
+    {
+     "hero": "Valir",
+     "edge": 1.6
+    },
+    {
+     "hero": "Diggie",
+     "edge": 1.4
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 1.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/pharsa",
+   "wiki": "https://liquipedia.net/mobilelegends/Pharsa"
+  },
+  {
+   "name": "Phoveus",
+   "title": "the Chains of Sin",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Regen",
+    "Damage"
+   ],
+   "region": "The Barren Lands",
+   "release": "11 May 2021",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Minsitthar",
+     "edge": 3.8
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.7
+    },
+    {
+     "hero": "Barats",
+     "edge": 3.4
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.3
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.2
+    },
+    {
+     "hero": "Alpha",
+     "edge": 3.2
+    },
+    {
+     "hero": "Bane",
+     "edge": 2.7
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 2.1
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 2.0
+    },
+    {
+     "hero": "Julian",
+     "edge": 1.9
+    },
+    {
+     "hero": "Vexana",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Wanwan",
+     "edge": 6.4
+    },
+    {
+     "hero": "Freya",
+     "edge": 5.2
+    },
+    {
+     "hero": "Harith",
+     "edge": 4.9
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 3.3
+    },
+    {
+     "hero": "Ruby",
+     "edge": 3.2
+    },
+    {
+     "hero": "Chou",
+     "edge": 2.8
+    },
+    {
+     "hero": "Lukas",
+     "edge": 2.7
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.7
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.6
+    },
+    {
+     "hero": "Valentina",
+     "edge": 2.5
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.5
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.3
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.3
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.1
+    },
+    {
+     "hero": "Kalea",
+     "edge": 2.0
+    },
+    {
+     "hero": "Kagura",
+     "edge": 2.0
+    },
+    {
+     "hero": "Paquito",
+     "edge": 1.9
+    },
+    {
+     "hero": "Selena",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/phoveus",
+   "wiki": "https://liquipedia.net/mobilelegends/Phoveus"
+  },
+  {
+   "name": "Popol and Kupa",
+   "title": "the Icefield Companions",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Jungle",
+    "Gold"
+   ],
+   "specialties": [
+    "Push",
+    "Burst"
+   ],
+   "region": "Northern Vale",
+   "release": "21 April 2020",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Atlas",
+     "edge": 4.4
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 3.6
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 3.0
+    },
+    {
+     "hero": "Alice",
+     "edge": 3.0
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.8
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 2.7
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.2
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 2.2
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.2
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Harley",
+     "edge": 2.8
+    },
+    {
+     "hero": "Harith",
+     "edge": 2.8
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 2.6
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.4
+    },
+    {
+     "hero": "Zilong",
+     "edge": 2.3
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 2.3
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.2
+    },
+    {
+     "hero": "Selena",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/popol-and-kupa",
+   "wiki": "https://liquipedia.net/mobilelegends/Popol_and_Kupa"
+  },
+  {
+   "name": "Rafaela",
+   "title": "the Wings of Holiness",
+   "roles": [
+    "Support"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Regen",
+    "Guard"
+   ],
+   "region": "Moniyan Empire",
+   "release": "2016",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Ixia",
+     "edge": 2.8
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.7
+    },
+    {
+     "hero": "Sora",
+     "edge": 2.4
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.1
+    },
+    {
+     "hero": "Layla",
+     "edge": 2.0
+    },
+    {
+     "hero": "Eudora",
+     "edge": 1.9
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 3.4
+    },
+    {
+     "hero": "Valir",
+     "edge": 3.2
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.1
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.4
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/rafaela",
+   "wiki": "https://liquipedia.net/mobilelegends/Rafaela"
+  },
+  {
+   "name": "Roger",
+   "title": "the Dire Wolf Hunter",
+   "roles": [
+    "Fighter",
+    "Marksman"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Finisher",
+    "Burst"
+   ],
+   "region": "Moniyan Empire",
+   "release": "25 June 2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Leomord",
+     "edge": 2.4
+    },
+    {
+     "hero": "Zhuxin",
+     "edge": 2.2
+    },
+    {
+     "hero": "Valentina",
+     "edge": 1.9
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 1.7
+    },
+    {
+     "hero": "Faramis",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Harley",
+     "edge": 2.3
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.2
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.2
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.7
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/roger",
+   "wiki": "https://liquipedia.net/mobilelegends/Roger"
+  },
+  {
+   "name": "Ruby",
+   "title": "the Little Red Hood",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Crowd Control",
+    "Regen"
+   ],
+   "region": "Moniyan Empire",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.4
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 3.2
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.5
+    },
+    {
+     "hero": "Gord",
+     "edge": 1.9
+    },
+    {
+     "hero": "Arlott",
+     "edge": 1.8
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Sun",
+     "edge": 3.7
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.6
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.4
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.2
+    },
+    {
+     "hero": "Masha",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/ruby",
+   "wiki": "https://liquipedia.net/mobilelegends/Ruby"
+  },
+  {
+   "name": "Saber",
+   "title": "the Wandering Sword",
+   "roles": [
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle",
+    "Roam"
+   ],
+   "specialties": [
+    "Charge",
+    "Finisher"
+   ],
+   "region": "Laboratory 1718",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Balmond",
+     "edge": 3.1
+    },
+    {
+     "hero": "Leomord",
+     "edge": 3.1
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.7
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.7
+    },
+    {
+     "hero": "Miya",
+     "edge": 2.7
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.5
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.5
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.5
+    },
+    {
+     "hero": "Argus",
+     "edge": 2.4
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 2.4
+    },
+    {
+     "hero": "Martis",
+     "edge": 2.3
+    },
+    {
+     "hero": "Nana",
+     "edge": 2.0
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.0
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.0
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Ling",
+     "edge": 4.3
+    },
+    {
+     "hero": "Nolan",
+     "edge": 3.9
+    },
+    {
+     "hero": "Natalia",
+     "edge": 3.5
+    },
+    {
+     "hero": "Valentina",
+     "edge": 3.0
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.9
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.7
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.6
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.5
+    },
+    {
+     "hero": "Irithel",
+     "edge": 2.4
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.2
+    },
+    {
+     "hero": "Brody",
+     "edge": 2.2
+    },
+    {
+     "hero": "Bruno",
+     "edge": 2.1
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.1
+    },
+    {
+     "hero": "Moskov",
+     "edge": 2.1
+    },
+    {
+     "hero": "Clint",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/saber",
+   "wiki": "https://liquipedia.net/mobilelegends/Saber"
+  },
+  {
+   "name": "Selena",
+   "title": "the Abyssal Witch",
+   "roles": [
+    "Assassin",
+    "Mage"
+   ],
+   "lanes": [
+    "Mid",
+    "Roam"
+   ],
+   "specialties": [
+    "Initiator",
+    "Finisher"
+   ],
+   "region": "Abyss",
+   "release": "10 July 2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Chip",
+     "edge": 2.6
+    },
+    {
+     "hero": "Gloo",
+     "edge": 2.2
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.0
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 1.7
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "X.Borg",
+     "edge": 2.0
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.0
+    },
+    {
+     "hero": "Ixia",
+     "edge": 1.9
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 1.6
+    },
+    {
+     "hero": "Yve",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/selena",
+   "wiki": "https://liquipedia.net/mobilelegends/Selena"
+  },
+  {
+   "name": "Silvanna",
+   "title": "the Imperial Knightess",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Initiator",
+    "Magic Damage"
+   ],
+   "region": "Moniyan Empire",
+   "release": "17 December 2019",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Khufra",
+     "edge": 3.4
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 3.3
+    },
+    {
+     "hero": "Belerick",
+     "edge": 3.1
+    },
+    {
+     "hero": "Barats",
+     "edge": 3.1
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.0
+    },
+    {
+     "hero": "Ling",
+     "edge": 2.9
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.9
+    },
+    {
+     "hero": "Edith",
+     "edge": 2.9
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 2.8
+    },
+    {
+     "hero": "Roger",
+     "edge": 2.2
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 2.1
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 2.1
+    },
+    {
+     "hero": "Akai",
+     "edge": 2.0
+    },
+    {
+     "hero": "Terizla",
+     "edge": 1.9
+    },
+    {
+     "hero": "Kagura",
+     "edge": 1.8
+    },
+    {
+     "hero": "Kadita",
+     "edge": 1.7
+    },
+    {
+     "hero": "Vale",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Aamon",
+     "edge": 2.8
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.3
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.3
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.1
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.1
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/silvanna",
+   "wiki": "https://liquipedia.net/mobilelegends/Silvanna"
+  },
+  {
+   "name": "Sora",
+   "title": "the Shifting Cloud",
+   "roles": [
+    "Fighter",
+    "Assassin"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Charge",
+    "Burst"
+   ],
+   "region": "Agelta Drylands",
+   "release": "18 December 2025",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 2.3
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.3
+    },
+    {
+     "hero": "Melissa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Alice",
+     "edge": 1.9
+    },
+    {
+     "hero": "Martis",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Estes",
+     "edge": 4.6
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 2.4
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Lolita",
+     "edge": 2.0
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/sora",
+   "wiki": "https://liquipedia.net/mobilelegends/Sora"
+  },
+  {
+   "name": "Sun",
+   "title": "the Monkey King",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP",
+    "Jungle"
+   ],
+   "specialties": [
+    "Push",
+    "Damage"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "December 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Natan",
+     "edge": 5.0
+    },
+    {
+     "hero": "Joy",
+     "edge": 4.0
+    },
+    {
+     "hero": "Ruby",
+     "edge": 3.7
+    },
+    {
+     "hero": "Marcel",
+     "edge": 3.6
+    },
+    {
+     "hero": "Faramis",
+     "edge": 3.4
+    },
+    {
+     "hero": "Kimmy",
+     "edge": 3.3
+    },
+    {
+     "hero": "Karina",
+     "edge": 3.1
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.9
+    },
+    {
+     "hero": "Suyou",
+     "edge": 2.2
+    },
+    {
+     "hero": "Irithel",
+     "edge": 1.8
+    },
+    {
+     "hero": "Badang",
+     "edge": 1.8
+    },
+    {
+     "hero": "Kagura",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Jawhead",
+     "edge": 3.7
+    },
+    {
+     "hero": "Diggie",
+     "edge": 3.0
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.8
+    },
+    {
+     "hero": "Harley",
+     "edge": 2.8
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.7
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.7
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.6
+    },
+    {
+     "hero": "Layla",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hanzo",
+     "edge": 2.5
+    },
+    {
+     "hero": "Lesley",
+     "edge": 2.2
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/sun",
+   "wiki": "https://liquipedia.net/mobilelegends/Sun"
+  },
+  {
+   "name": "Suyou",
+   "title": "the Mask of the Immortal",
+   "roles": [
+    "Assassin",
+    "Fighter"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Chase",
+    "Burst"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "21 September 2024",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Harith",
+     "edge": 2.6
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.0
+    },
+    {
+     "hero": "Odette",
+     "edge": 1.9
+    },
+    {
+     "hero": "Harley",
+     "edge": 1.6
+    },
+    {
+     "hero": "Gusion",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Natalia",
+     "edge": 2.4
+    },
+    {
+     "hero": "Sun",
+     "edge": 2.2
+    },
+    {
+     "hero": "Baxia",
+     "edge": 1.8
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 1.6
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/suyou",
+   "wiki": "https://liquipedia.net/mobilelegends/Suyou"
+  },
+  {
+   "name": "Terizla",
+   "title": "the Executioner",
+   "roles": [
+    "Fighter",
+    "Tank"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Burst",
+    "Crowd Control"
+   ],
+   "region": "Abyss",
+   "release": "4 June 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "X.Borg",
+     "edge": 4.5
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.5
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.4
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.3
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.3
+    },
+    {
+     "hero": "Cecilion",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Argus",
+     "edge": 3.0
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.9
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.1
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/terizla",
+   "wiki": "https://liquipedia.net/mobilelegends/Terizla"
+  },
+  {
+   "name": "Thamuz",
+   "title": "the Lord Lava",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Abyss",
+   "release": "18 September 2018",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Cici",
+     "edge": 4.6
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.7
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 2.5
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.2
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.1
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Alucard",
+     "edge": 2.5
+    },
+    {
+     "hero": "Alice",
+     "edge": 2.3
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.1
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.0
+    },
+    {
+     "hero": "Diggie",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/thamuz",
+   "wiki": "https://liquipedia.net/mobilelegends/Thamuz"
+  },
+  {
+   "name": "Tigreal",
+   "title": "the Warrior of Dawn",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "Roam"
+   ],
+   "specialties": [
+    "Crowd Control"
+   ],
+   "region": "Moniyan Empire",
+   "release": "2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 3.7
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.8
+    },
+    {
+     "hero": "Zetian",
+     "edge": 2.6
+    },
+    {
+     "hero": "Valir",
+     "edge": 2.6
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.5
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Zilong",
+     "edge": 2.8
+    },
+    {
+     "hero": "Estes",
+     "edge": 2.6
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.1
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.1
+    },
+    {
+     "hero": "Franco",
+     "edge": 2.0
+    },
+    {
+     "hero": "Julian",
+     "edge": 1.8
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/tigreal",
+   "wiki": "https://liquipedia.net/mobilelegends/Tigreal"
+  },
+  {
+   "name": "Uranus",
+   "title": "the Aesthereal Defender",
+   "roles": [
+    "Tank"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Regen"
+   ],
+   "region": "Celestial Palace",
+   "release": "2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Dyrroth",
+     "edge": 2.8
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.8
+    },
+    {
+     "hero": "Joy",
+     "edge": 2.7
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.7
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.6
+    },
+    {
+     "hero": "Xavier",
+     "edge": 2.2
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yin",
+     "edge": 3.2
+    },
+    {
+     "hero": "Argus",
+     "edge": 3.1
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 3.0
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.8
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.2
+    },
+    {
+     "hero": "Granger",
+     "edge": 2.0
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/uranus",
+   "wiki": "https://liquipedia.net/mobilelegends/Uranus"
+  },
+  {
+   "name": "Vale",
+   "title": "the Windtalker",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Crowd Control"
+   ],
+   "region": "Agelta Drylands",
+   "release": "29 January 2019",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Gloo",
+     "edge": 2.8
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.0
+    },
+    {
+     "hero": "Hilda",
+     "edge": 1.9
+    },
+    {
+     "hero": "Lapu-Lapu",
+     "edge": 1.9
+    },
+    {
+     "hero": "Hylos",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Odette",
+     "edge": 3.3
+    },
+    {
+     "hero": "Estes",
+     "edge": 1.7
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 1.7
+    },
+    {
+     "hero": "Melissa",
+     "edge": 1.6
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/vale",
+   "wiki": "https://liquipedia.net/mobilelegends/Vale"
+  },
+  {
+   "name": "Valentina",
+   "title": "the Prophetess of the Night",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Finisher"
+   ],
+   "region": "Moniyan Empire",
+   "release": "25 November 2021",
+   "dmg": "Campuran",
+   "counteredBy": [
+    {
+     "hero": "Saber",
+     "edge": 3.0
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.9
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 2.5
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.3
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 2.2
+    },
+    {
+     "hero": "Jawhead",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Carmilla",
+     "edge": 4.1
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.4
+    },
+    {
+     "hero": "Lukas",
+     "edge": 3.1
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 3.1
+    },
+    {
+     "hero": "Zetian",
+     "edge": 2.3
+    },
+    {
+     "hero": "Roger",
+     "edge": 1.9
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/valentina",
+   "wiki": "https://liquipedia.net/mobilelegends/Valentina"
+  },
+  {
+   "name": "Valir",
+   "title": "the Son of Flames",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Damage",
+    "Guard"
+   ],
+   "region": "Agelta Drylands",
+   "release": "2018",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Kaja",
+     "edge": 3.5
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 3.2
+    },
+    {
+     "hero": "Rafaela",
+     "edge": 3.2
+    },
+    {
+     "hero": "Lolita",
+     "edge": 3.0
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 3.0
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.3
+    },
+    {
+     "hero": "Harley",
+     "edge": 2.1
+    },
+    {
+     "hero": "Novaria",
+     "edge": 2.1
+    },
+    {
+     "hero": "Kagura",
+     "edge": 1.8
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.6
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Leomord",
+     "edge": 3.1
+    },
+    {
+     "hero": "Barats",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.7
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.7
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.6
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/valir",
+   "wiki": "https://liquipedia.net/mobilelegends/Valir"
+  },
+  {
+   "name": "Vexana",
+   "title": "the Shimmer of Hope",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Poke",
+    "Control"
+   ],
+   "region": "The Barren Lands",
+   "release": "2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 2.9
+    },
+    {
+     "hero": "Marcel",
+     "edge": 2.2
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.1
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.1
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 1.8
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 3.3
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.1
+    },
+    {
+     "hero": "Zhask",
+     "edge": 2.0
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 1.4
+    },
+    {
+     "hero": "Chip",
+     "edge": 1.3
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/vexana",
+   "wiki": "https://liquipedia.net/mobilelegends/Vexana"
+  },
+  {
+   "name": "Wanwan",
+   "title": "the Agile Tiger",
+   "roles": [
+    "Marksman"
+   ],
+   "lanes": [
+    "Gold"
+   ],
+   "specialties": [
+    "Finisher",
+    "Burst"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "26 November 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Phoveus",
+     "edge": 6.4
+    },
+    {
+     "hero": "Khufra",
+     "edge": 3.5
+    },
+    {
+     "hero": "Bruno",
+     "edge": 3.4
+    },
+    {
+     "hero": "Cyclops",
+     "edge": 3.0
+    },
+    {
+     "hero": "Lunox",
+     "edge": 2.9
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.6
+    },
+    {
+     "hero": "Irithel",
+     "edge": 1.9
+    },
+    {
+     "hero": "Paquito",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Yin",
+     "edge": 5.0
+    },
+    {
+     "hero": "Ixia",
+     "edge": 4.2
+    },
+    {
+     "hero": "Atlas",
+     "edge": 3.8
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 3.0
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.0
+    },
+    {
+     "hero": "Hanabi",
+     "edge": 2.8
+    },
+    {
+     "hero": "Alpha",
+     "edge": 2.6
+    },
+    {
+     "hero": "Thamuz",
+     "edge": 2.5
+    },
+    {
+     "hero": "Aamon",
+     "edge": 2.4
+    },
+    {
+     "hero": "Beatrix",
+     "edge": 2.3
+    },
+    {
+     "hero": "Yu Zhong",
+     "edge": 1.8
+    },
+    {
+     "hero": "Kadita",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/wanwan",
+   "wiki": "https://liquipedia.net/mobilelegends/Wanwan"
+  },
+  {
+   "name": "X.Borg",
+   "title": "the Firaga Armor",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Regen",
+    "Burst"
+   ],
+   "region": "Eruditio",
+   "release": "9 August 2019",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Benedetta",
+     "edge": 3.8
+    },
+    {
+     "hero": "Floryn",
+     "edge": 3.6
+    },
+    {
+     "hero": "Mathilda",
+     "edge": 3.5
+    },
+    {
+     "hero": "Ling",
+     "edge": 3.4
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 3.4
+    },
+    {
+     "hero": "Paquito",
+     "edge": 3.3
+    },
+    {
+     "hero": "Joy",
+     "edge": 3.2
+    },
+    {
+     "hero": "Zilong",
+     "edge": 3.2
+    },
+    {
+     "hero": "Angela",
+     "edge": 3.2
+    },
+    {
+     "hero": "Chou",
+     "edge": 3.2
+    },
+    {
+     "hero": "Valentina",
+     "edge": 3.1
+    },
+    {
+     "hero": "Arlott",
+     "edge": 3.0
+    },
+    {
+     "hero": "Yve",
+     "edge": 2.8
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.6
+    },
+    {
+     "hero": "Nolan",
+     "edge": 2.5
+    },
+    {
+     "hero": "Aldous",
+     "edge": 2.5
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.2
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.1
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.1
+    },
+    {
+     "hero": "Selena",
+     "edge": 2.0
+    },
+    {
+     "hero": "Novaria",
+     "edge": 1.9
+    },
+    {
+     "hero": "Suyou",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Hylos",
+     "edge": 4.2
+    },
+    {
+     "hero": "Martis",
+     "edge": 3.8
+    },
+    {
+     "hero": "Phoveus",
+     "edge": 3.7
+    },
+    {
+     "hero": "Balmond",
+     "edge": 3.5
+    },
+    {
+     "hero": "Ruby",
+     "edge": 3.4
+    },
+    {
+     "hero": "Carmilla",
+     "edge": 3.3
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 3.3
+    },
+    {
+     "hero": "Alpha",
+     "edge": 3.0
+    },
+    {
+     "hero": "Cici",
+     "edge": 3.0
+    },
+    {
+     "hero": "Tigreal",
+     "edge": 2.8
+    },
+    {
+     "hero": "Karrie",
+     "edge": 2.3
+    },
+    {
+     "hero": "Fredrinn",
+     "edge": 2.3
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.2
+    },
+    {
+     "hero": "Vexana",
+     "edge": 2.1
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/x-borg",
+   "wiki": "https://liquipedia.net/mobilelegends/X.Borg"
+  },
+  {
+   "name": "Xavier",
+   "title": "the Defier of Light",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Damage",
+    "Guard"
+   ],
+   "region": "Moniyan Empire",
+   "release": "22 March 2022",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 3.2
+    },
+    {
+     "hero": "Natalia",
+     "edge": 2.9
+    },
+    {
+     "hero": "Helcurt",
+     "edge": 2.5
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.4
+    },
+    {
+     "hero": "Alucard",
+     "edge": 1.9
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Belerick",
+     "edge": 2.3
+    },
+    {
+     "hero": "Uranus",
+     "edge": 2.2
+    },
+    {
+     "hero": "Faramis",
+     "edge": 2.1
+    },
+    {
+     "hero": "Marcel",
+     "edge": 1.9
+    },
+    {
+     "hero": "Atlas",
+     "edge": 1.8
+    },
+    {
+     "hero": "Yi Sun-shin",
+     "edge": 1.3
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/xavier",
+   "wiki": "https://liquipedia.net/mobilelegends/Xavier"
+  },
+  {
+   "name": "Yi Sun-shin",
+   "title": "the Paenlong Legend",
+   "roles": [
+    "Assassin",
+    "Marksman"
+   ],
+   "lanes": [
+    "Jungle"
+   ],
+   "specialties": [
+    "Finisher",
+    "Chase"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "2017",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Lolita",
+     "edge": 2.0
+    },
+    {
+     "hero": "Karina",
+     "edge": 1.9
+    },
+    {
+     "hero": "Uranus",
+     "edge": 1.7
+    },
+    {
+     "hero": "Odette",
+     "edge": 1.4
+    },
+    {
+     "hero": "Xavier",
+     "edge": 1.3
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Thamuz",
+     "edge": 2.1
+    },
+    {
+     "hero": "Khufra",
+     "edge": 2.1
+    },
+    {
+     "hero": "Nana",
+     "edge": 1.5
+    },
+    {
+     "hero": "Ruby",
+     "edge": 1.4
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 1.4
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/yi-sun-shin",
+   "wiki": "https://liquipedia.net/mobilelegends/Yi_Sun-shin"
+  },
+  {
+   "name": "Yin",
+   "title": "the Martial Genius",
+   "roles": [
+    "Fighter",
+    "Assassin"
+   ],
+   "lanes": [
+    "Jungle",
+    "EXP"
+   ],
+   "specialties": [
+    "Burst",
+    "Control"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "18 January 2022",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Wanwan",
+     "edge": 5.0
+    },
+    {
+     "hero": "Esmeralda",
+     "edge": 3.6
+    },
+    {
+     "hero": "Uranus",
+     "edge": 3.2
+    },
+    {
+     "hero": "Irithel",
+     "edge": 2.7
+    },
+    {
+     "hero": "Khaleed",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.5
+    },
+    {
+     "hero": "Lancelot",
+     "edge": 2.3
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.1
+    },
+    {
+     "hero": "Hirara",
+     "edge": 2.1
+    },
+    {
+     "hero": "Obsidia",
+     "edge": 1.9
+    },
+    {
+     "hero": "Zhask",
+     "edge": 1.9
+    },
+    {
+     "hero": "Grock",
+     "edge": 1.8
+    },
+    {
+     "hero": "Roger",
+     "edge": 1.7
+    },
+    {
+     "hero": "Suyou",
+     "edge": 1.5
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Faramis",
+     "edge": 3.1
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.9
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.8
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.8
+    },
+    {
+     "hero": "Ixia",
+     "edge": 2.7
+    },
+    {
+     "hero": "Aurora",
+     "edge": 2.1
+    },
+    {
+     "hero": "Luo Yi",
+     "edge": 1.9
+    },
+    {
+     "hero": "Kalea",
+     "edge": 1.7
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/yin",
+   "wiki": "https://liquipedia.net/mobilelegends/Yin"
+  },
+  {
+   "name": "Yu Zhong",
+   "title": "the Black Dragon",
+   "roles": [
+    "Fighter"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Regen",
+    "Damage"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "16 June 2020",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Masha",
+     "edge": 2.3
+    },
+    {
+     "hero": "Wanwan",
+     "edge": 1.8
+    },
+    {
+     "hero": "Cici",
+     "edge": 1.7
+    },
+    {
+     "hero": "Claude",
+     "edge": 1.6
+    },
+    {
+     "hero": "Harith",
+     "edge": 1.6
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Gloo",
+     "edge": 2.5
+    },
+    {
+     "hero": "Silvanna",
+     "edge": 2.1
+    },
+    {
+     "hero": "Minsitthar",
+     "edge": 2.0
+    },
+    {
+     "hero": "Atlas",
+     "edge": 1.7
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 1.6
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/yu-zhong",
+   "wiki": "https://liquipedia.net/mobilelegends/Yu_Zhong"
+  },
+  {
+   "name": "Yve",
+   "title": "the Astrowarden",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Burst",
+    "Poke"
+   ],
+   "region": "Northern Vale",
+   "release": "12 February 2021",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Fanny",
+     "edge": 3.6
+    },
+    {
+     "hero": "Freya",
+     "edge": 3.5
+    },
+    {
+     "hero": "Harith",
+     "edge": 3.0
+    },
+    {
+     "hero": "Saber",
+     "edge": 2.9
+    },
+    {
+     "hero": "Benedetta",
+     "edge": 2.5
+    },
+    {
+     "hero": "Nolan",
+     "edge": 2.5
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 2.4
+    },
+    {
+     "hero": "Gusion",
+     "edge": 2.3
+    },
+    {
+     "hero": "Alucard",
+     "edge": 2.2
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Granger",
+     "edge": 2.1
+    },
+    {
+     "hero": "Kalea",
+     "edge": 2.1
+    },
+    {
+     "hero": "Guinevere",
+     "edge": 1.9
+    },
+    {
+     "hero": "Kadita",
+     "edge": 1.6
+    },
+    {
+     "hero": "Selena",
+     "edge": 1.4
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Alice",
+     "edge": 3.0
+    },
+    {
+     "hero": "X.Borg",
+     "edge": 2.8
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.8
+    },
+    {
+     "hero": "Terizla",
+     "edge": 2.3
+    },
+    {
+     "hero": "Martis",
+     "edge": 1.6
+    },
+    {
+     "hero": "Lylia",
+     "edge": 1.5
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/yve",
+   "wiki": "https://liquipedia.net/mobilelegends/Yve"
+  },
+  {
+   "name": "Zetian",
+   "title": "the Celestial Empress",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Damage",
+    "Crowd Control"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "18 June 2025",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Valentina",
+     "edge": 2.3
+    },
+    {
+     "hero": "Floryn",
+     "edge": 2.0
+    },
+    {
+     "hero": "Gloo",
+     "edge": 1.9
+    },
+    {
+     "hero": "Diggie",
+     "edge": 1.7
+    },
+    {
+     "hero": "Harith",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Helcurt",
+     "edge": 1.7
+    },
+    {
+     "hero": "Pharsa",
+     "edge": 1.3
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/zetian",
+   "wiki": "https://liquipedia.net/mobilelegends/Zetian"
+  },
+  {
+   "name": "Zhask",
+   "title": "the King of Swarms",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Kastiya",
+   "release": "2017",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Alice",
+     "edge": 3.1
+    },
+    {
+     "hero": "Natan",
+     "edge": 3.0
+    },
+    {
+     "hero": "Belerick",
+     "edge": 2.7
+    },
+    {
+     "hero": "Estes",
+     "edge": 2.5
+    },
+    {
+     "hero": "Baxia",
+     "edge": 2.3
+    },
+    {
+     "hero": "Vexana",
+     "edge": 2.0
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 3.1
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.8
+    },
+    {
+     "hero": "Kaja",
+     "edge": 2.8
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.4
+    },
+    {
+     "hero": "Yin",
+     "edge": 1.9
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 1.8
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/zhask",
+   "wiki": "https://liquipedia.net/mobilelegends/Zhask"
+  },
+  {
+   "name": "Zhuxin",
+   "title": "the Beacon of Spirits",
+   "roles": [
+    "Mage"
+   ],
+   "lanes": [
+    "Mid"
+   ],
+   "specialties": [
+    "Damage",
+    "Crowd Control"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "29 June 2024",
+   "dmg": "Magic",
+   "counteredBy": [
+    {
+     "hero": "Nolan",
+     "edge": 2.6
+    },
+    {
+     "hero": "Odette",
+     "edge": 2.5
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.4
+    },
+    {
+     "hero": "Arlott",
+     "edge": 2.3
+    },
+    {
+     "hero": "Hayabusa",
+     "edge": 2.2
+    },
+    {
+     "hero": "Dyrroth",
+     "edge": 2.1
+    }
+   ],
+   "counters": [
+    {
+     "hero": "Lolita",
+     "edge": 6.2
+    },
+    {
+     "hero": "Khufra",
+     "edge": 4.0
+    },
+    {
+     "hero": "Gloo",
+     "edge": 3.5
+    },
+    {
+     "hero": "Minotaur",
+     "edge": 2.7
+    },
+    {
+     "hero": "Lukas",
+     "edge": 2.7
+    },
+    {
+     "hero": "Hilda",
+     "edge": 2.6
+    },
+    {
+     "hero": "Leomord",
+     "edge": 2.5
+    },
+    {
+     "hero": "Aulus",
+     "edge": 2.4
+    },
+    {
+     "hero": "Roger",
+     "edge": 2.2
+    },
+    {
+     "hero": "Chang'e",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/zhuxin",
+   "wiki": "https://liquipedia.net/mobilelegends/Zhuxin"
+  },
+  {
+   "name": "Zilong",
+   "title": "the Spear of Dragon",
+   "roles": [
+    "Fighter",
+    "Assassin"
+   ],
+   "lanes": [
+    "EXP"
+   ],
+   "specialties": [
+    "Chase",
+    "Damage"
+   ],
+   "region": "Cadia Riverlands",
+   "release": "9 September 2016",
+   "dmg": "Physical",
+   "counteredBy": [
+    {
+     "hero": "Tigreal",
+     "edge": 2.8
+    },
+    {
+     "hero": "Karina",
+     "edge": 2.8
+    },
+    {
+     "hero": "Johnson",
+     "edge": 2.7
+    },
+    {
+     "hero": "Chip",
+     "edge": 2.7
+    },
+    {
+     "hero": "Atlas",
+     "edge": 2.6
+    },
+    {
+     "hero": "Hylos",
+     "edge": 2.5
+    },
+    {
+     "hero": "Popol and Kupa",
+     "edge": 2.3
+    },
+    {
+     "hero": "Gatotkaca",
+     "edge": 2.3
+    },
+    {
+     "hero": "Grock",
+     "edge": 2.0
+    },
+    {
+     "hero": "Eudora",
+     "edge": 2.0
+    },
+    {
+     "hero": "Badang",
+     "edge": 1.7
+    },
+    {
+     "hero": "Zetian",
+     "edge": 1.7
+    }
+   ],
+   "counters": [
+    {
+     "hero": "X.Borg",
+     "edge": 3.2
+    },
+    {
+     "hero": "Cici",
+     "edge": 2.7
+    },
+    {
+     "hero": "Fanny",
+     "edge": 2.4
+    },
+    {
+     "hero": "Diggie",
+     "edge": 2.1
+    },
+    {
+     "hero": "Angela",
+     "edge": 2.0
+    }
+   ],
+   "src": "https://mlbbhub.com/counter/zilong",
+   "wiki": "https://liquipedia.net/mobilelegends/Zilong"
+  }
+ ],
+ "counterPatches": [
+  "2.2.16a"
+ ]
+}

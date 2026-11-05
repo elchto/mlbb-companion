@@ -1,0 +1,289 @@
+{
+ "asOf": "5 November 2026",
+ "patch": "2.2.16a",
+ "season": "Season 42",
+ "sources": [
+  {
+   "title": "Liquipedia MLBB: Portal Heroes (133 hero, lane per hero) dan halaman tiap hero (teks skill)",
+   "url": "https://liquipedia.net/mobilelegends/Portal:Heroes"
+  },
+  {
+   "title": "MLBB Fandom Wiki: List of heroes (role, specialty, lane, region, tanggal rilis)",
+   "url": "https://mobile-legends.fandom.com/wiki/List_of_heroes"
+  },
+  {
+   "title": "MLBBHub: counter pick per hero (edge dari data ranked resmi Moonton GMS, patch 2.2.16a)",
+   "url": "https://mlbbhub.com/counter"
+  },
+  {
+   "title": "MLBBHub: katalog 104 item (dari file game, patch 2.2.16a, 5 Nov 2026)",
+   "url": "https://mlbbhub.com/items"
+  },
+  {
+   "title": "MLBB Fandom Wiki: Turtle",
+   "url": "https://mobile-legends.fandom.com/wiki/Turtle"
+  },
+  {
+   "title": "MLBB Fandom Wiki: Lord",
+   "url": "https://mobile-legends.fandom.com/wiki/Lord"
+  },
+  {
+   "title": "MLBBDex: objective timer (Turtle, Lord, buff)",
+   "url": "https://mlbbdex.com/en/tools/timer"
+  },
+  {
+   "title": "METAMMO: Jungle guide Season 42 (patch 2.2.16a)",
+   "url": "https://metammo.com/mobile-legends-guide/guides/jungle-routes-and-objective-timers"
+  },
+  {
+   "title": "MLBBHub: Map guide",
+   "url": "https://mlbbhub.com/map"
+  }
+ ],
+ "items": [
+  {
+   "id": "antiheal",
+   "label": "Anti-heal",
+   "when": "Musuh punya banyak heal/regen (hero dengan specialty Regen, healer, lifesteal tinggi).",
+   "items": [
+    {
+     "name": "Sea Halberd",
+     "for": "Physical",
+     "cost": 2050,
+     "note": "Lifebane: kurangi Shield dan HP Regen target jadi 60% selama 3s. Punish: +8% damage ke hero dengan extra HP lebih tinggi."
+    },
+    {
+     "name": "Glowing Wand",
+     "for": "Magic",
+     "cost": 2050,
+     "note": "Lifebane: kurangi Shield dan HP Regen jadi 60% selama 3s; Scorch membakar 1% Max HP per detik."
+    },
+    {
+     "name": "Dominance Ice",
+     "for": "Tank/Roam",
+     "cost": 2010,
+     "note": "Lifebane area: Shield dan HP Regen musuh dalam 5 unit jadi 60%. Juga +40 Physical dan +40 Magic Defense."
+    }
+   ]
+  },
+  {
+   "id": "magicdef",
+   "label": "Magic Defense",
+   "when": "3+ hero musuh dominan Magic damage.",
+   "items": [
+    {
+     "name": "Athena's Shield",
+     "for": "Semua",
+     "cost": 2150,
+     "note": "+48 Magic Defense; kurangi Magic Damage 25% selama 3s saat terkena magic."
+    },
+    {
+     "name": "Radiant Armor",
+     "for": "Semua",
+     "cost": 1880,
+     "note": "+40 Magic Defense, bertambah saat menerima Magic Damage (sampai 6 stack)."
+    },
+    {
+     "name": "Tough Boots",
+     "for": "Semua",
+     "cost": 720,
+     "note": "+18 Magic Defense; durasi CC dan Slow -25%."
+    }
+   ]
+  },
+  {
+   "id": "physdef",
+   "label": "Physical Defense",
+   "when": "3+ hero musuh dominan Physical damage.",
+   "items": [
+    {
+     "name": "Antique Cuirass",
+     "for": "Tank/Fighter",
+     "cost": 2170,
+     "note": "+40 Physical Defense, +920 HP; tiap kena skill, Physical Damage penyerang -4% (stack 3x)."
+    },
+    {
+     "name": "Warrior Boots",
+     "for": "Semua",
+     "cost": 720,
+     "note": "+18 Physical Defense, +4 lagi saat menerima Physical Damage (maks +20)."
+    },
+    {
+     "name": "Dominance Ice",
+     "for": "Tank/Roam",
+     "cost": 2010,
+     "note": "+40 Physical dan +40 Magic Defense; bonus defense per musuh di dekat."
+    }
+   ]
+  },
+  {
+   "id": "anticrit",
+   "label": "Anti-crit / anti attack speed",
+   "when": "Musuh punya 2+ Marksman atau hero basic-attack/crit.",
+   "items": [
+    {
+     "name": "Blade Armor",
+     "for": "Tank/Fighter",
+     "cost": 1910,
+     "note": "+80 Physical Defense, 20% Critical Damage Reduction; memantulkan damage basic attack dan slow."
+    },
+    {
+     "name": "Chastise Pauldron",
+     "for": "Tank/Fighter",
+     "cost": 2100,
+     "note": "Penyerang kena -25% Attack Speed (dan cap-nya) selama 2s; pulih 20% Max HP saat HP < 30%."
+    },
+    {
+     "name": "Wind of Nature",
+     "for": "Marksman",
+     "cost": 1910,
+     "note": "Active: kebal Physical Damage 2s (durasi setengah jika bukan Marksman)."
+    }
+   ]
+  },
+  {
+   "id": "antiburst",
+   "label": "Anti-burst",
+   "when": "Musuh punya 2+ Assassin atau banyak hero burst.",
+   "items": [
+    {
+     "name": "Winter Crown",
+     "for": "Semua",
+     "cost": 1910,
+     "note": "Active: beku, untargetable dan kebal damage 2s (CD 100s)."
+    },
+    {
+     "name": "Immortality",
+     "for": "Semua",
+     "cost": 2120,
+     "note": "Bangkit 2.5s setelah mati dengan 16% HP + shield (CD 210s)."
+    },
+    {
+     "name": "Queen's Wings",
+     "for": "Fighter",
+     "cost": 2250,
+     "note": "HP < 40%: 30% Damage Reduction 3s dan CD skill -2s."
+    },
+    {
+     "name": "Blood Wings",
+     "for": "Mage",
+     "cost": 2100,
+     "note": "Shield 800 (+100% Magic Power) yang regenerasi."
+    }
+   ]
+  },
+  {
+   "id": "pen",
+   "label": "Penetrasi vs tank",
+   "when": "Musuh punya 2+ Tank atau frontline tebal.",
+   "items": [
+    {
+     "name": "Malefic Roar",
+     "for": "Physical",
+     "cost": 2060,
+     "note": "+30% Physical Penetration, bertambah sesuai Physical Defense target (maks +30%)."
+    },
+    {
+     "name": "Demon Hunter Sword",
+     "for": "Physical (basic attack)",
+     "cost": 2180,
+     "note": "Basic attack +8% current HP target sebagai Physical Damage."
+    },
+    {
+     "name": "Divine Glaive",
+     "for": "Magic",
+     "cost": 1970,
+     "note": "40% Magic Penetration, bertambah sesuai Magic Defense target (maks +20%)."
+    },
+    {
+     "name": "Genius Wand",
+     "for": "Magic",
+     "cost": 2000,
+     "note": "10 Magic Penetration; kurangi Magic Defense target (stack 3x)."
+    }
+   ]
+  },
+  {
+   "id": "anticc",
+   "label": "Anti-CC",
+   "when": "Musuh punya 3+ hero Crowd Control/Control.",
+   "items": [
+    {
+     "name": "Tough Boots",
+     "for": "Semua",
+     "cost": 720,
+     "note": "Durasi CC dan Slow -25%, +18 Magic Defense."
+    },
+    {
+     "name": "Brute Force Breastplate",
+     "for": "Tank/Fighter",
+     "cost": 2070,
+     "note": "Full stack: +25% Control Duration Reduction."
+    }
+   ]
+  }
+ ],
+ "timers": [
+  {
+   "id": "turtle",
+   "label": "Turtle",
+   "emoji": "🐢",
+   "respawn": 120,
+   "first": "2:00",
+   "notes": "Respawn 120s setelah mati. Turtle yang mati setelah 6:00 tidak respawn (Lord muncul 2 menit kemudian). Turtle pertama selalu di sisi EXP lane."
+  },
+  {
+   "id": "lord",
+   "label": "Lord",
+   "emoji": "👹",
+   "respawn": 180,
+   "alt": [
+    {
+     "label": "Setelah 18:00 (120s)",
+     "respawn": 120
+    },
+    {
+     "label": "Setelah 18:00 (150s)",
+     "respawn": 150
+    }
+   ],
+   "first": "8:00 (atau 2 menit setelah Turtle terakhir)",
+   "notes": "Respawn 180s jika mati sebelum 18:00. Setelah 18:00 sumber berbeda: 120s (teks Fandom) atau 150s (infobox Fandom/MLBBHub). Lord bisa muncul bersama gelombang minion, jadi bisa telat sampai ~30 detik."
+  },
+  {
+   "id": "purple_ours",
+   "label": "Purple buff (kita)",
+   "emoji": "🟣",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Efek buff ±75s."
+  },
+  {
+   "id": "red_ours",
+   "label": "Red/Orange buff (kita)",
+   "emoji": "🔴",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Efek buff ±75s."
+  },
+  {
+   "id": "purple_theirs",
+   "label": "Purple buff (musuh)",
+   "emoji": "🟪",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Siapkan invade 15 detik sebelumnya."
+  },
+  {
+   "id": "red_theirs",
+   "label": "Red/Orange buff (musuh)",
+   "emoji": "🟥",
+   "respawn": 90,
+   "first": "±0:20-0:30",
+   "notes": "Respawn 90s. Siapkan invade 15 detik sebelumnya."
+  }
+ ],
+ "timerNote": "Waktu dari Fandom (Turtle, Lord), MLBBDex, METAMMO dan MLBBHub per patch 2.2.16a. Spawn pertama buff berbeda antar sumber (0:20, 0:25 atau 0:30). Moonton tidak menerbitkan tabel timer resmi dan bisa mengubahnya tiap patch; minimap di game selalu yang paling benar.",
+ "goldenRule": "Objektif lebih penting dari kill. Jangan bertarung tanpa tahu posisi jungler musuh dan tanpa ultimate siap; kalau ragu, ambil objektif yang aman atau reset dan reposisi.",
+ "goldenRuleNote": "Rumusan ini dibuat untuk app ini; ganti di data/game.json (goldenRule) jika ingin memakai versi coach sendiri."
+}

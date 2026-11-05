@@ -1,0 +1,2327 @@
+[
+{
+"name": "Miya",
+"title": "the Moonlight Archer",
+"order": 1,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Azrya Woodlands",
+"release": "2016"
+},
+{
+"name": "Balmond",
+"title": "the Bloody Beast",
+"order": 2,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Damage",
+"Regen"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "The Barren Lands",
+"release": "2016"
+},
+{
+"name": "Saber",
+"title": "the Wandering Sword",
+"order": 3,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Charge",
+"Finisher"
+],
+"lanes": [
+"Jungle",
+"Roaming"
+],
+"region": "Laboratory 1718",
+"release": "2016"
+},
+{
+"name": "Alice",
+"title": "the Queen of Blood",
+"order": 4,
+"roles": [
+"Tank",
+"Mage"
+],
+"specialties": [
+"Charge",
+"Regen"
+],
+"lanes": [
+"EXP Lane",
+"Jungle"
+],
+"region": "Abyss",
+"release": "2016"
+},
+{
+"name": "Nana",
+"title": "the Sweet Leonin",
+"order": 5,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Burst"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Azrya Woodlands",
+"release": "2016"
+},
+{
+"name": "Tigreal",
+"title": "the Warrior of Dawn",
+"order": 6,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Moniyan Empire",
+"release": "2016"
+},
+{
+"name": "Alucard",
+"title": "the Demon Hunter",
+"order": 7,
+"roles": [
+"Fighter",
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Moniyan Empire",
+"release": "2016"
+},
+{
+"name": "Karina",
+"title": "the Shadow Blade",
+"order": 8,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Finisher",
+"Magic Damage"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Azrya Woodlands",
+"release": "2016"
+},
+{
+"name": "Akai",
+"title": "the Panda Warrior",
+"order": 9,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Guard",
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Cadia Riverlands",
+"release": "2016"
+},
+{
+"name": "Franco",
+"title": "the Frozen Warrior",
+"order": 10,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Initiator",
+"Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Northern Vale",
+"release": "2016"
+},
+{
+"name": "Bane",
+"title": "the Frozen King",
+"order": 11,
+"roles": [
+"Fighter",
+"Mage"
+],
+"specialties": [
+"Push",
+"Burst"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "Northern Vale",
+"release": "2016"
+},
+{
+"name": "Bruno",
+"title": "the Protector",
+"order": 12,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Burst"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Eruditio",
+"release": "2016"
+},
+{
+"name": "Clint",
+"title": "the West Justice",
+"order": 13,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Burst"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Agelta Drylands",
+"release": "2016"
+},
+{
+"name": "Rafaela",
+"title": "the Wings of Holiness",
+"order": 14,
+"roles": [
+"Support"
+],
+"specialties": [
+"Regen",
+"Guard"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Moniyan Empire",
+"release": "2016"
+},
+{
+"name": "Eudora",
+"title": "the Lightning Weaver",
+"order": 15,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Control",
+"Burst"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Northern Vale",
+"release": "2016"
+},
+{
+"name": "Zilong",
+"title": "the Spear of Dragon",
+"order": 16,
+"roles": [
+"Fighter",
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Cadia Riverlands",
+"release": "9 September 2016"
+},
+{
+"name": "Fanny",
+"title": "the Blade Dancer",
+"order": 17,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Finisher"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Moniyan Empire",
+"release": "30 September 2016"
+},
+{
+"name": "Layla",
+"title": "the Energy Gunner",
+"order": 18,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Eruditio",
+"release": "23 September 2016"
+},
+{
+"name": "Minotaur",
+"title": "the Son of Minos",
+"order": 19,
+"roles": [
+"Tank",
+"Support"
+],
+"specialties": [
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Agelta Drylands",
+"release": "14 October 2016"
+},
+{
+"name": "Lolita",
+"title": "the Steel Elf",
+"order": 20,
+"roles": [
+"Support",
+"Tank"
+],
+"specialties": [
+"Guard",
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Eruditio",
+"release": "28 October 2016"
+},
+{
+"name": "Hayabusa",
+"title": "the Crimson Shadow",
+"order": 21,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "4 November 2016"
+},
+{
+"name": "Freya",
+"title": "the Valkyrie",
+"order": 22,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"EXP Lane",
+"Jungle"
+],
+"region": "Northern Vale",
+"release": "November 2016"
+},
+{
+"name": "Gord",
+"title": "the Professor of the Mystics",
+"order": 23,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Burst"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Northern Vale",
+"release": "November 2016"
+},
+{
+"name": "Natalia",
+"title": "the Bright Claw",
+"order": 24,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Finisher"
+],
+"lanes": [
+"Jungle",
+"Roaming"
+],
+"region": "Moniyan Empire",
+"release": "December 2016"
+},
+{
+"name": "Kagura",
+"title": "the Onmyouji Master",
+"order": 25,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Finisher"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Cadia Riverlands",
+"release": "December 2016"
+},
+{
+"name": "Chou",
+"title": "the Kung Fu Boy",
+"order": 26,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Control"
+],
+"lanes": [
+"EXP Lane",
+"Roaming"
+],
+"region": "Agelta Drylands",
+"release": "December 2016"
+},
+{
+"name": "Sun",
+"title": "the Monkey King",
+"order": 27,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Push",
+"Damage"
+],
+"lanes": [
+"EXP Lane",
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "December 2016"
+},
+{
+"name": "Alpha",
+"title": "the Blade of Enmity",
+"order": 28,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Charge",
+"Damage"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "Laboratory 1718",
+"release": "January 2017"
+},
+{
+"name": "Ruby",
+"title": "the Little Red Hood",
+"order": 29,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Crowd Control",
+"Regen"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Moniyan Empire",
+"release": "2017"
+},
+{
+"name": "Yi Sun-shin",
+"title": "the Paenlong Legend",
+"order": 30,
+"roles": [
+"Assassin",
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Chase"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "2017"
+},
+{
+"name": "Moskov",
+"title": "the Spear of Quiescence",
+"order": 31,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Chase"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Agelta Drylands",
+"release": "2017"
+},
+{
+"name": "Johnson",
+"title": "the Wild Engine",
+"order": 32,
+"roles": [
+"Tank",
+"Support"
+],
+"specialties": [
+"Support",
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Eruditio",
+"release": "14 March 2017"
+},
+{
+"name": "Cyclops",
+"title": "the Starsoul Magician",
+"order": 33,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Control"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Nebula Chronorift",
+"release": "2017"
+},
+{
+"name": "Estes",
+"title": "the Moon Elf King",
+"order": 34,
+"roles": [
+"Support"
+],
+"specialties": [
+"Regen",
+"Guard"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Azrya Woodlands",
+"release": "2017"
+},
+{
+"name": "Hilda",
+"title": "the Power of Megalith",
+"order": 35,
+"roles": [
+"Fighter",
+"Tank"
+],
+"specialties": [
+"Damage",
+"Regen"
+],
+"lanes": [
+"Roaming",
+"EXP Lane"
+],
+"region": "Northern Vale",
+"release": "2017"
+},
+{
+"name": "Aurora",
+"title": "the Maiden of the Glacier",
+"order": 36,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Crowd Control",
+"Poke"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Northern Vale",
+"release": "2017"
+},
+{
+"name": "Lapu-Lapu",
+"title": "the Courageous Blade",
+"order": 37,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Vonetis Sea",
+"release": "2017"
+},
+{
+"name": "Vexana",
+"title": "the Shimmer of Hope",
+"order": 38,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Control"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "The Barren Lands",
+"release": "2017"
+},
+{
+"name": "Roger",
+"title": "the Dire Wolf Hunter",
+"order": 39,
+"roles": [
+"Fighter",
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Moniyan Empire",
+"release": "25 June 2017"
+},
+{
+"name": "Karrie",
+"title": "the Lost Star",
+"order": 40,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Alaghat",
+"release": "2017"
+},
+{
+"name": "Gatotkaca",
+"title": "the Mighty Legend",
+"order": 41,
+"roles": [
+"Tank",
+"Fighter"
+],
+"specialties": [
+"Crowd Control",
+"Burst"
+],
+"lanes": [
+"Roaming",
+"EXP Lane"
+],
+"region": "Nebula Chronorift",
+"release": "July 2017"
+},
+{
+"name": "Harley",
+"title": "the Mage Genius",
+"order": 42,
+"roles": [
+"Assassin",
+"Mage"
+],
+"specialties": [
+"Burst",
+"Poke"
+],
+"lanes": [
+"Jungle",
+"Mid Lane"
+],
+"region": "Northern Vale",
+"release": "29 July 2017"
+},
+{
+"name": "Irithel",
+"title": "the Jungle Heart",
+"order": 43,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Burst"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Azrya Woodlands",
+"release": "15 August 2017"
+},
+{
+"name": "Grock",
+"title": "the Fortress Titan",
+"order": 44,
+"roles": [
+"Tank",
+"Fighter"
+],
+"specialties": [
+"Crowd Control",
+"Initiator"
+],
+"lanes": [
+"Roaming"
+],
+"region": "The Barren Lands",
+"release": "2017"
+},
+{
+"name": "Argus",
+"title": "the Dark Angel",
+"order": 45,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Charge",
+"Burst"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Abyss",
+"release": "2017"
+},
+{
+"name": "Odette",
+"title": "the Swan Princess",
+"order": 46,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Poke"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Moniyan Empire",
+"release": "29 September 2017"
+},
+{
+"name": "Lancelot",
+"title": "the Blade of Roses",
+"order": 47,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Moniyan Empire",
+"release": "2017"
+},
+{
+"name": "Diggie",
+"title": "the Timekeeper",
+"order": 48,
+"roles": [
+"Support"
+],
+"specialties": [
+"Guard",
+"Poke"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Eruditio",
+"release": "19 November 2017"
+},
+{
+"name": "Hylos",
+"title": "the Grand Warden",
+"order": 49,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Guard",
+"Initiator"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Agelta Drylands",
+"release": "2017"
+},
+{
+"name": "Zhask",
+"title": "the King of Swarms",
+"order": 50,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Kastiya",
+"release": "2017"
+},
+{
+"name": "Helcurt",
+"title": "the Shadowbringer",
+"order": 51,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Push",
+"Burst"
+],
+"lanes": [
+"Jungle",
+"Roaming"
+],
+"region": "Abyss",
+"release": "24 November 2017"
+},
+{
+"name": "Pharsa",
+"title": "the Wings of Vengeance",
+"order": 52,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Poke"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "The Barren Lands",
+"release": "27 December 2017"
+},
+{
+"name": "Lesley",
+"title": "the Deadly Sniper",
+"order": 53,
+"roles": [
+"Marksman",
+"Assassin"
+],
+"specialties": [
+"Finisher",
+"Burst"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Moniyan Empire",
+"release": "January 2018"
+},
+{
+"name": "Jawhead",
+"title": "the Steel Sweetheart",
+"order": 54,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Charge",
+"Burst"
+],
+"lanes": [
+"Roaming",
+"EXP Lane"
+],
+"region": "Laboratory 1718",
+"release": "January 2018"
+},
+{
+"name": "Angela",
+"title": "the Bunnylove",
+"order": 55,
+"roles": [
+"Support"
+],
+"specialties": [
+"Guard",
+"Support"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Laboratory 1718",
+"release": "6 February 2018"
+},
+{
+"name": "Gusion",
+"title": "the Holy Blade",
+"order": 56,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Burst",
+"Magic Damage"
+],
+"lanes": [
+"Jungle",
+"Mid Lane"
+],
+"region": "Moniyan Empire",
+"release": "2018"
+},
+{
+"name": "Valir",
+"title": "the Son of Flames",
+"order": 57,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Damage",
+"Guard"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Agelta Drylands",
+"release": "2018"
+},
+{
+"name": "Martis",
+"title": "the Ashura King",
+"order": 58,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Finisher",
+"Charge"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "Nebula Chronorift",
+"release": "2018"
+},
+{
+"name": "Uranus",
+"title": "the Aesthereal Defender",
+"order": 59,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Regen"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Celestial Palace",
+"release": "2018"
+},
+{
+"name": "Hanabi",
+"title": "the Scarlet Flower",
+"order": 60,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Cadia Riverlands",
+"release": "17 April 2018"
+},
+{
+"name": "Chang'e",
+"title": "the Moon Palace Immortal",
+"order": 61,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Burst"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Cadia Riverlands",
+"release": "30 May 2018"
+},
+{
+"name": "Kaja",
+"title": "the Nazar King",
+"order": 62,
+"roles": [
+"Support"
+],
+"specialties": [
+"Initiator",
+"Charge"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Celestial Palace",
+"release": "25 April 2018"
+},
+{
+"name": "Selena",
+"title": "the Abyssal Witch",
+"order": 63,
+"roles": [
+"Assassin",
+"Mage"
+],
+"specialties": [
+"Initiator",
+"Finisher"
+],
+"lanes": [
+"Mid Lane",
+"Roaming"
+],
+"region": "Abyss",
+"release": "10 July 2018"
+},
+{
+"name": "Aldous",
+"title": "the Soul Contractor",
+"order": 64,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Burst",
+"Support"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Agelta Drylands",
+"release": "24 July 2018"
+},
+{
+"name": "Claude",
+"title": "the Master Thief",
+"order": 65,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Burst",
+"Chase"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Los Pecados",
+"release": "7 August 2018"
+},
+{
+"name": "Vale",
+"title": "the Windtalker",
+"order": 66,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Crowd Control"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Agelta Drylands",
+"release": "29 January 2019"
+},
+{
+"name": "Leomord",
+"title": "the Sworn Sword",
+"order": 67,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "The Barren Lands",
+"release": "3 October 2018"
+},
+{
+"name": "Lunox",
+"title": "the Twilight Goddess",
+"order": 68,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Damage"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Agelta Drylands",
+"release": "4 September 2018"
+},
+{
+"name": "Hanzo",
+"title": "the Akuma Ninja",
+"order": 69,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Burst",
+"Poke"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "4 December 2018"
+},
+{
+"name": "Belerick",
+"title": "the Guard of Nature",
+"order": 70,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Crowd Control",
+"Regen"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Agelta Drylands",
+"release": "17 August 2018"
+},
+{
+"name": "Kimmy",
+"title": "the Hoverjet Outrider",
+"order": 71,
+"roles": [
+"Marksman",
+"Mage"
+],
+"specialties": [
+"Damage",
+"Magic Damage"
+],
+"lanes": [
+"Mid Lane",
+"Gold Lane"
+],
+"region": "Eruditio",
+"release": "23 October 2018"
+},
+{
+"name": "Thamuz",
+"title": "the Lord Lava",
+"order": 72,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Abyss",
+"release": "18 September 2018"
+},
+{
+"name": "Harith",
+"title": "the Time Traveler",
+"order": 73,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Moniyan Empire",
+"release": "6 November 2018"
+},
+{
+"name": "Minsitthar",
+"title": "the Courageous Warrior",
+"order": 74,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Initiator",
+"Crowd Control"
+],
+"lanes": [
+"EXP Lane",
+"Roaming"
+],
+"region": "Vonetis Sea",
+"release": "20 November 2018"
+},
+{
+"name": "Kadita",
+"title": "the Ocean Goddess",
+"order": 75,
+"roles": [
+"Mage",
+"Assassin"
+],
+"specialties": [
+"Burst",
+"Charge"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Vonetis Sea",
+"release": "18 December 2018"
+},
+{
+"name": "Faramis",
+"title": "the Soul Binder",
+"order": 76,
+"roles": [
+"Support",
+"Mage"
+],
+"specialties": [
+"Guard",
+"Charge"
+],
+"lanes": [
+"Mid Lane",
+"Roaming"
+],
+"region": "The Barren Lands",
+"release": "18 May 2019"
+},
+{
+"name": "Badang",
+"title": "the Tribal Warrior",
+"order": 77,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Charge",
+"Burst"
+],
+"lanes": [
+"Roaming",
+"EXP Lane"
+],
+"region": "Vonetis Sea",
+"release": "15 January 2019"
+},
+{
+"name": "Khufra",
+"title": "the Desert Tyrant",
+"order": 78,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Initiator",
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Agelta Drylands",
+"release": "12 March 2019"
+},
+{
+"name": "Granger",
+"title": "the Death Chanter",
+"order": 79,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Burst",
+"Finisher"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Moniyan Empire",
+"release": "23 April 2019"
+},
+{
+"name": "Guinevere",
+"title": "the Ms. Violet",
+"order": 80,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Burst",
+"Magic Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Moniyan Empire",
+"release": "21 February 2019"
+},
+{
+"name": "Esmeralda",
+"title": "the Astrologer",
+"order": 81,
+"roles": [
+"Tank",
+"Mage"
+],
+"specialties": [
+"Regen",
+"Mixed Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Agelta Drylands",
+"release": "3 April 2019"
+},
+{
+"name": "Terizla",
+"title": "the Executioner",
+"order": 82,
+"roles": [
+"Fighter",
+"Tank"
+],
+"specialties": [
+"Burst",
+"Crowd Control"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Abyss",
+"release": "4 June 2019"
+},
+{
+"name": "X.Borg",
+"title": "the Firaga Armor",
+"order": 83,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Regen",
+"Burst"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Eruditio",
+"release": "9 August 2019"
+},
+{
+"name": "Ling",
+"title": "the Cyan Finch",
+"order": 84,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "24 November 2019"
+},
+{
+"name": "Dyrroth",
+"title": "the Prince of the Abyss",
+"order": 85,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Charge",
+"Burst"
+],
+"lanes": [
+"EXP Lane",
+"Jungle"
+],
+"region": "Abyss",
+"release": "25 June 2019"
+},
+{
+"name": "Lylia",
+"title": "the Little Witch",
+"order": 86,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Push",
+"Damage"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Northern Vale",
+"release": "23 July 2019"
+},
+{
+"name": "Baxia",
+"title": "the Mystic Tortoise",
+"order": 87,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Support",
+"Damage"
+],
+"lanes": [
+"Jungle",
+"Roaming"
+],
+"region": "Cadia Riverlands",
+"release": "8 October 2019"
+},
+{
+"name": "Masha",
+"title": "the Wild-oats Fist",
+"order": 88,
+"roles": [
+"Fighter",
+"Tank"
+],
+"specialties": [
+"Push",
+"Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Northern Vale",
+"release": "17 September 2019"
+},
+{
+"name": "Wanwan",
+"title": "the Agile Tiger",
+"order": 89,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Burst"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Cadia Riverlands",
+"release": "26 November 2019"
+},
+{
+"name": "Silvanna",
+"title": "the Imperial Knightess",
+"order": 90,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Initiator",
+"Magic Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Moniyan Empire",
+"release": "17 December 2019"
+},
+{
+"name": "Cecilion",
+"title": "the Embrace of Night",
+"order": 91,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Poke",
+"Burst"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Moniyan Empire",
+"release": "12 February 2020"
+},
+{
+"name": "Carmilla",
+"title": "the Shadow of Twilight",
+"order": 92,
+"roles": [
+"Support",
+"Tank"
+],
+"specialties": [
+"Crowd Control",
+"Damage"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Moniyan Empire",
+"release": "17 January 2020"
+},
+{
+"name": "Atlas",
+"title": "the Ocean Gladiator",
+"order": 93,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Crowd Control",
+"Initiator"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Northern Vale",
+"release": "20 March 2020"
+},
+{
+"name": "Popol and Kupa",
+"title": "the Icefield Companions",
+"order": 94,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Push",
+"Burst"
+],
+"lanes": [
+"Jungle",
+"Gold Lane"
+],
+"region": "Northern Vale",
+"release": "21 April 2020"
+},
+{
+"name": "Yu Zhong",
+"title": "the Black Dragon",
+"order": 95,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Regen",
+"Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Cadia Riverlands",
+"release": "16 June 2020"
+},
+{
+"name": "Luo Yi",
+"title": "the Yin-yang Geomancer",
+"order": 96,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Support",
+"Crowd Control"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Cadia Riverlands",
+"release": "16 May 2020"
+},
+{
+"name": "Benedetta",
+"title": "the Shadow Ranger",
+"order": 97,
+"roles": [
+"Assassin",
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "The Barren Lands",
+"release": "7 November 2020"
+},
+{
+"name": "Khaleed",
+"title": "the Desert Scimitar",
+"order": 98,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Damage",
+"Regen"
+],
+"lanes": [
+"Roaming",
+"EXP Lane"
+],
+"region": "Agelta Drylands",
+"release": "7 August 2020"
+},
+{
+"name": "Barats",
+"title": "the Dino Rider",
+"order": 99,
+"roles": [
+"Tank",
+"Fighter"
+],
+"specialties": [
+"Damage",
+"Crowd Control"
+],
+"lanes": [
+"EXP Lane",
+"Jungle"
+],
+"region": "Agelta Drylands",
+"release": "18 September 2020"
+},
+{
+"name": "Brody",
+"title": "the Lone Star",
+"order": 100,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Burst",
+"Finisher"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "The Barren Lands",
+"release": "16 October 2020"
+},
+{
+"name": "Yve",
+"title": "the Astrowarden",
+"order": 101,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Poke"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Northern Vale",
+"release": "12 February 2021"
+},
+{
+"name": "Mathilda",
+"title": "the Swift Plume",
+"order": 102,
+"roles": [
+"Support",
+"Assassin"
+],
+"specialties": [
+"Initiator",
+"Guard"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Los Pecados",
+"release": "12 December 2020"
+},
+{
+"name": "Paquito",
+"title": "the Heavenly Fist",
+"order": 103,
+"roles": [
+"Fighter",
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "The Barren Lands",
+"release": "15 January 2021"
+},
+{
+"name": "Gloo",
+"title": "the Swamp Spirits",
+"order": 104,
+"roles": [
+"Tank"
+],
+"specialties": [
+"Regen",
+"Control"
+],
+"lanes": [
+"Roaming",
+"EXP Lane"
+],
+"region": "Azrya Woodlands",
+"release": "16 April 2021"
+},
+{
+"name": "Beatrix",
+"title": "the Dawnbreak Soldier",
+"order": 105,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Eruditio",
+"release": "19 March 2021"
+},
+{
+"name": "Phoveus",
+"title": "the Chains of Sin",
+"order": 106,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Regen",
+"Damage"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "The Barren Lands",
+"release": "11 May 2021"
+},
+{
+"name": "Natan",
+"title": "the Spacetime Walker",
+"order": 107,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Burst",
+"Magic Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Agelta Drylands",
+"release": "23 July 2021"
+},
+{
+"name": "Aulus",
+"title": "the Warrior of Ferocity",
+"order": 108,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Damage",
+"Charge"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "The Barren Lands",
+"release": "31 August 2021"
+},
+{
+"name": "Aamon",
+"title": "the Duke of Shards",
+"order": 109,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Magic Damage"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Moniyan Empire",
+"release": "26 October 2021"
+},
+{
+"name": "Valentina",
+"title": "the Prophetess of the Night",
+"order": 110,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Finisher"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Moniyan Empire",
+"release": "25 November 2021"
+},
+{
+"name": "Edith",
+"title": "the Ancient Guard",
+"order": 111,
+"roles": [
+"Tank",
+"Marksman"
+],
+"specialties": [
+"Control",
+"Burst"
+],
+"lanes": [
+"EXP Lane",
+"Roaming"
+],
+"region": "Sanctum Island",
+"release": "24 December 2021"
+},
+{
+"name": "Floryn",
+"title": "the Budding Hope",
+"order": 112,
+"roles": [
+"Support"
+],
+"specialties": [
+"Poke",
+"Guard"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Agelta Drylands",
+"release": "22 September 2021"
+},
+{
+"name": "Yin",
+"title": "the Martial Genius",
+"order": 113,
+"roles": [
+"Fighter",
+"Assassin"
+],
+"specialties": [
+"Burst",
+"Control"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "Cadia Riverlands",
+"release": "18 January 2022"
+},
+{
+"name": "Melissa",
+"title": "the Cursed Needle",
+"order": 114,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Moniyan Empire",
+"release": "22 February 2022"
+},
+{
+"name": "Xavier",
+"title": "the Defier of Light",
+"order": 115,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Damage",
+"Guard"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Moniyan Empire",
+"release": "22 March 2022"
+},
+{
+"name": "Julian",
+"title": "the Scarlet Raven",
+"order": 116,
+"roles": [
+"Assassin",
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Magic Damage"
+],
+"lanes": [
+"Jungle",
+"EXP Lane"
+],
+"region": "Moniyan Empire",
+"release": "24 May 2022"
+},
+{
+"name": "Fredrinn",
+"title": "the Rogue Appraiser",
+"order": 117,
+"roles": [
+"Fighter",
+"Tank"
+],
+"specialties": [
+"Damage",
+"Chase"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Los Pecados",
+"release": "12 August 2022"
+},
+{
+"name": "Joy",
+"title": "the Flash of Miracle",
+"order": 118,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Damage"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Azrya Woodlands",
+"release": "18 November 2022"
+},
+{
+"name": "Novaria",
+"title": "the Star Rebel",
+"order": 119,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Burst",
+"Poke"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Eruditio",
+"release": "16 May 2023"
+},
+{
+"name": "Arlott",
+"title": "the Lone Lancer",
+"order": 120,
+"roles": [
+"Fighter",
+"Assassin"
+],
+"specialties": [
+"Charge",
+"Burst"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Moniyan Empire",
+"release": "14 February 2023"
+},
+{
+"name": "Ixia",
+"title": "the Arclight Outlaw",
+"order": 121,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Eruditio",
+"release": "8 July 2023"
+},
+{
+"name": "Nolan",
+"title": "the Cosmic Wayfinder",
+"order": 122,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Eruditio",
+"release": "30 September 2023"
+},
+{
+"name": "Cici",
+"title": "the Buoyant Performer",
+"order": 123,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Damage",
+"Regen"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Moniyan Empire",
+"release": "27 December 2023"
+},
+{
+"name": "Chip",
+"title": "the Phase Technician",
+"order": 124,
+"roles": [
+"Support",
+"Tank"
+],
+"specialties": [
+"Support",
+"Crowd Control"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Laboratory 1718",
+"release": "16 March 2024"
+},
+{
+"name": "Zhuxin",
+"title": "the Beacon of Spirits",
+"order": 125,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Damage",
+"Crowd Control"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Cadia Riverlands",
+"release": "29 June 2024"
+},
+{
+"name": "Suyou",
+"title": "the Mask of the Immortal",
+"order": 126,
+"roles": [
+"Assassin",
+"Fighter"
+],
+"specialties": [
+"Chase",
+"Burst"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "21 September 2024"
+},
+{
+"name": "Lukas",
+"title": "the Beast of Light",
+"order": 127,
+"roles": [
+"Fighter"
+],
+"specialties": [
+"Regen",
+"Damage"
+],
+"lanes": [
+"EXP Lane",
+"Jungle"
+],
+"region": "Moniyan Empire",
+"release": "21 December 2024"
+},
+{
+"name": "Kalea",
+"title": "the Surging Wave",
+"order": 128,
+"roles": [
+"Support",
+"Fighter"
+],
+"specialties": [
+"Control",
+"Regen"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Vonetis Sea",
+"release": "19 March 2025"
+},
+{
+"name": "Zetian",
+"title": "the Celestial Empress",
+"order": 129,
+"roles": [
+"Mage"
+],
+"specialties": [
+"Damage",
+"Crowd Control"
+],
+"lanes": [
+"Mid Lane"
+],
+"region": "Cadia Riverlands",
+"release": "18 June 2025"
+},
+{
+"name": "Obsidia",
+"title": "the Sovereign of Dark's End",
+"order": 130,
+"roles": [
+"Marksman"
+],
+"specialties": [
+"Finisher",
+"Damage"
+],
+"lanes": [
+"Gold Lane"
+],
+"region": "Abyss",
+"release": "17 September 2025"
+},
+{
+"name": "Sora",
+"title": "the Shifting Cloud",
+"order": 131,
+"roles": [
+"Fighter",
+"Assassin"
+],
+"specialties": [
+"Charge",
+"Burst"
+],
+"lanes": [
+"EXP Lane"
+],
+"region": "Agelta Drylands",
+"release": "18 December 2025"
+},
+{
+"name": "Marcel",
+"title": "the Soul Photographer",
+"order": 132,
+"roles": [
+"Support"
+],
+"specialties": [
+"Crowd Control",
+"Support"
+],
+"lanes": [
+"Roaming"
+],
+"region": "Moniyan Empire",
+"release": "11 March 2026"
+},
+{
+"name": "Hirara",
+"title": "the Fallen Scarlet",
+"order": 133,
+"roles": [
+"Assassin"
+],
+"specialties": [
+"Chase",
+"Finisher"
+],
+"lanes": [
+"Jungle"
+],
+"region": "Cadia Riverlands",
+"release": "17 June 2026"
+}
+]

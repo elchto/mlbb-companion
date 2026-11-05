@@ -1,0 +1,1997 @@
+{
+"Balmond": {
+"phys": 2,
+"mag": 0,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Alice": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Alucard": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Akai": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Franco": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Bane": {
+"phys": 2,
+"mag": 2,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Bruno": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Clint": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Eudora": {
+"phys": 0,
+"mag": 7,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Fanny": {
+"phys": 2,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Freya": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Gord": {
+"phys": 0,
+"mag": 3,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Chou": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Claude": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Cyclops": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Gatotkaca": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Grock": {
+"phys": 6,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Belerick": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Baxia": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Atlas": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Gloo": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Alpha": {
+"phys": 4,
+"mag": 0,
+"true": 4,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Argus": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Dyrroth": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Barats": {
+"phys": 7,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Aldous": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Estes": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 2,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Aurora": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Diggie": {
+"phys": 0,
+"mag": 2,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Floryn": {
+"phys": 0,
+"mag": 2,
+"true": 0,
+"heal": 2,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Edith": {
+"phys": 3,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Angela": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Faramis": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Carmilla": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Gusion": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Badang": {
+"phys": 7,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Guinevere": {
+"phys": 0,
+"mag": 8,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Granger": {
+"phys": 2,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Aulus": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Benedetta": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Aamon": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Esmeralda": {
+"phys": 4,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Chang'e": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Cecilion": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Brody": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Beatrix": {
+"phys": 8,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Fredrinn": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Arlott": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Cici": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Chip": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Miya": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Nana": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Karina": {
+"phys": 0,
+"mag": 6,
+"true": 2,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Minotaur": {
+"phys": 4,
+"mag": 0,
+"true": 2,
+"heal": 3,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Layla": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lolita": {
+"phys": 2,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Hayabusa": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Natalia": {
+"phys": 2,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Kagura": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Khufra": {
+"phys": 4,
+"mag": 2,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Johnson": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Hylos": {
+"phys": 0,
+"mag": 2,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Kadita": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lancelot": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Hilda": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Ling": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Kaja": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Khaleed": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Minsitthar": {
+"phys": 6,
+"mag": 0,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Martis": {
+"phys": 4,
+"mag": 0,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Jawhead": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Luo Yi": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Moskov": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lapu-Lapu": {
+"phys": 8,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Karrie": {
+"phys": 4,
+"mag": 0,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Harley": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Irithel": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Julian": {
+"phys": 0,
+"mag": 10,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Mathilda": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Leomord": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Helcurt": {
+"phys": 2,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Kimmy": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Masha": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Hanzo": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lunox": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Harith": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lylia": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lesley": {
+"phys": 2,
+"mag": 0,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Hanabi": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Natan": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Melissa": {
+"phys": 1,
+"mag": 2,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Joy": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Novaria": {
+"phys": 0,
+"mag": 3,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Ixia": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Nolan": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Lukas": {
+"phys": 14,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Kalea": {
+"phys": 7,
+"mag": 0,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Obsidia": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Marcel": {
+"phys": 2,
+"mag": 0,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Hirara": {
+"phys": 2,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Saber": {
+"phys": 6,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Tigreal": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Rafaela": {
+"phys": 0,
+"mag": 2,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Zilong": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Uranus": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Ruby": {
+"phys": 4,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Pharsa": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Phoveus": {
+"phys": 2,
+"mag": 3,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Valentina": {
+"phys": 1,
+"mag": 2,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Yi Sun-shin": {
+"phys": 5,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Vale": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Sun": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Roger": {
+"phys": 3,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Odette": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Zhask": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Thamuz": {
+"phys": 5,
+"mag": 0,
+"true": 1,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Wanwan": {
+"phys": 4,
+"mag": 0,
+"true": 1,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Yin": {
+"phys": 7,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Terizla": {
+"phys": 6,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"X.Borg": {
+"phys": 3,
+"mag": 0,
+"true": 3,
+"heal": 2,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Silvanna": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Yu Zhong": {
+"phys": 7,
+"mag": 0,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Paquito": {
+"phys": 7,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Selena": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Vexana": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Valir": {
+"phys": 0,
+"mag": 6,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Yve": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Xavier": {
+"phys": 0,
+"mag": 4,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Zhuxin": {
+"phys": 0,
+"mag": 5,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Suyou": {
+"phys": 10,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Zetian": {
+"phys": 0,
+"mag": 8,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Sora": {
+"phys": 16,
+"mag": 0,
+"true": 0,
+"heal": 0,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+},
+"Popol and Kupa": {
+"phys": 7,
+"mag": 1,
+"true": 0,
+"heal": 1,
+"spec": [
+"",
+""
+],
+"role": null,
+"role2": null,
+"lane": null,
+"release": null,
+"title": null
+}
+}
